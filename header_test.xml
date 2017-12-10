@@ -15,50 +15,72 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-     <profileDesc>
-        <settingDesc>
-           <listPlace>
-              <place type="country" xml:id="reed541">                    
-              </place>
-              <place type="borough_parish" xml:id="reed543">
-                 <district/>
-              </place>
-              <place type="ecclesiastical_area" xml:id="eats539">
-                 <district/>
-              </place>
-              <place type="household" xml:id="eats547">
-                 <district/>
-              </place>
-              <place type="religious_house" xml:id="eats551">
-                 <district/>
-              </place>
-              <place type="place_feature" xml:id="eats21368">
-                 <location/>
-              </place>                   
-           </listPlace>
-        </settingDesc>
-        
-         <particDesc>
-            <listPerson>
-               <person role="clergy" xml:id="eats523">
-               </person>
-               <person role="family" xml:id="eats23416">
-               </person>
-               <person role="commoner" xml:id="eats525">
-               </person>
-               <person role="nobility" xml:id="eats533">
-               </person>
-               <person role="royalty" xml:id="eats535">
-               </person>
-               <personGrp role="guild" xml:id="eats517">
-               </personGrp>
-               <personGrp role="troupe" xml:id="eats12619">
-               </personGrp>
-            </listPerson>
-         </particDesc>
-        
-        
-     </profileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy>
+              <!-- This section deals with types of locations -->
+              <category xml:id="locations">
+                 <catDesc>Location Type: country
+                    <country xml:id="country" sameAs="eats541"/>
+                 </catDesc>
+                 <catDesc>Location Type: county
+                    <region xml:id="county" sameAs="eats543"/>
+                 </catDesc>
+                 <catDesc>Location Type: Ecclesiastical Area such as Diocese
+                    <region xml:id="eccl_area" sameAs="eats545"/>
+                 </catDesc>
+                 <catDesc>Location Type: city
+                    <settlement xml:id="city" sameAs="eats539?"/>
+                 </catDesc>
+                 <catDesc>Location Type: borough
+                    <district xml:id="borough" sameAs="eats539"/>
+                 </catDesc>
+                 <catDesc>Location Type: parish
+                    <district xml:id="parish" sameAs="eats539"/>
+                 </catDesc>
+                 <catDesc>Location Type: ward
+                    <district xml:id="ward" sameAs="eats?"/>
+                 </catDesc>
+                 <catDesc>Location Type: street
+                    <location xml:id="street" sameAs="eats?"/>
+                 </catDesc>
+                 <catDesc>Location Type: household (family)
+                    <location xml:id="fam_household" sameAs="eats547"/>
+                 </catDesc>
+                 <catDesc>Locaton Type: household (religious)
+                    <location xml:id="rel_household" sameAs="eats551"/>
+                 </catDesc>
+                 <catDesc>Location Type: building
+                    <location xml:id="building" sameAs="eats21368"/>
+                 </catDesc>
+              </category>
+                       
+              <!-- This section deals with calendar types -->
+              
+              <category xml:id="calendars">
+                 <catDesc>Calendar Days</catDesc>
+                 <category xml:id="secular" sameAs="eats4855">
+                    <catDesc>Calendar: Secular</catDesc>
+                 </category>
+                 <category xml:id="liturgical" sameAs="eats4857">
+                    <catDesc>Calendar: Liturgical</catDesc>
+                 </category>
+              </category>
+              
+              <!-- This section deals with named people -->
+              
+              <category xml:id="clergy" sameAs="eats523">
+                 <catDesc>Person: Clergy</catDesc>
+              </category>
+              <category xml:id="family" sameAs="eats23416">
+                 <catDesc>Person: Family</catDesc>
+              </category>
+                 
+                 
+           </taxonomy>
+        </classDecl>
+     </encodingDesc>
+     
            
   </teiHeader>
   <text>
@@ -71,19 +93,14 @@
            * CalenderDay_Secular (#4855)
            Liturgical
            * CalendarDay_Liturgical (#4857)
-           
-           _People_
-           * Person_GenderUnknown (#527)
-           * Person_Male (#531)
-           * Person_Female (#537)
-           
+                      
            _Collectives_
            Guilds
            * Collective_Guild (#517)
            * Collective_Troupe  (12619)
            Occupations
            * Collective_Occupation (#519)
-           Clergy & Churchwardens 
+           Clergy &amp; Churchwardens 
            * Collective_ClergyAndChurchwardens (#9104)
            
            *Collective_Title (#555)
@@ -116,28 +133,28 @@
            * Thing_MusicalInstrument (#553)
            Books
            * Thing_BookPlayMusic (4951)
-           Properties & Machinery
+           Properties &amp; Machinery
            * Thing_PropertyMachinery (#4953)
            Sets
            * Thing_Set
            Pageant Wagons
            * Thing_PageantWagon (4955)
-           Cloth  & Fabric
+           Cloth  &amp; Fabric
            * Thing_ClothFabric (#4959)
            Theatrical Costumes
            * Thing_TheatricalCostume (#4961)
            Regalia
            * Thing_Regalia (#4963)
-           Food & Drink
+           Food &amp; Drink
            * Thing_FoodDrink (#4965)
            
-           _Crimes & Misdemeanors_
+           _Crimes &amp; Misdemeanors_
            * CrimesMisdemeanors (#21297)
            ** no subheads under this one, just gets populated with entity pages with type CrimesMisdemeanors)
            
            Questions:
            * What are the codes under #572 - English?  Language Type: Indo-European (572)
-           We've changed "English" to "Indo-European". I don't know why it's not revised in the <eatsml.xml> file.  Diane, I don't know which info you are working from or part of the file you are looking at so don't know what you mean by the codes "under" #572.
+           We've changed "English" to "Indo-European". I don't know why it's not revised in the eatsml.xml file.  Diane, I don't know which info you are working from or part of the file you are looking at so don't know what you mean by the codes "under" #572.
               
               _Name Parts_
               * Family #560
