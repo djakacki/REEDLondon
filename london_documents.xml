@@ -689,8 +689,78 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
 
                <!-- for Middle Temple Loose Papers Three Categories - each with edDesc: GDE, MAA, MAB, TUT -->               
                
+               <!-- Go back and fill in pages lvii to lxii -->
                
+               <msDesc xml:id="RLDL1">
+                  <msIdentifier>
+                     <settlement>Simancas</settlement>
+                     <repository sameAs="#AGS"/>
+                     <idno type="shelfmark">Legajo 818, 11</idno>
+                     <msName>Diplomatic Letters: Letters of Guzman de Silva, Spanish Ambassador, to the King of Spain and the Duchess of Parma</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">For English translations of complete letters, see Martin A.S. Hume (ed), Calendar of Letters and State Papers, Relating to English Affairs, Preserved Principally in the Archives of Simancas (London, 1892; rpt Nendeln, 1971), 404–6, 564–6.</ab>
+                  <ab type="techDesc"><date>12 March 1564/5</date>; Spanish; paper; bifolia; 333mm x 225mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDL2">
+                  <msIdentifier>
+                     <settlement>Simancas, Spain</settlement>
+                     <repository sameAs="#AGS"/>
+                     <idno type="shelfmark">Legajo 819, 105</idno>
+                     <msName>Diplomatic Letters: Letters of Guzman de Silva, Spanish Ambassador, to the King of Spain and the Duchess of Parma</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See RLDL1</ab>
+                  <ab type="techDesc"><date>6 July 1566</date>; Spanish; paper; bifolia; 333mm x 228mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDL3">
+                  <msIdentifier>
+                     <settlement>Venice, Italy</settlement>
+                     <repository sameAs="#ASV"/>
+                     <idno type="n/a"/>
+                     <msName>Diplomatic Letters: Letters of Venetian Ambassadors to the Doge</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">For English translations of complete letters, see Allen B. Hinds (ed), Calendar of State Papers and Manuscripts Relating to English Affairs, Existing in the Archives and Collections of Venice, and in other Libraries of Northern Italy, vol 16 (London, 1910), 579; and vol 23 (London, 1921), 26, 180, 195. The editors are unable to provide full document descriptions of these manuscripts because they were being repaired at the time of publication.</ab>
+                  <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXI; <date>16 February 1620/1</date>; Italian; paper.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDL4">
+                  <msIdentifier>
+                     <settlement>Venice, Italy</settlement>
+                     <repository sameAs="#ASV"/>
+                     <idno type="n/a"/>
+                     <msName>Diplomatic Letters: Letters of Venetian Ambassadors to the Doge</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See RLDL3</ab>
+                  <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXXV; <date>27 December 1633</date>; Italian; paper.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDL5">
+                  <msIdentifier>
+                     <settlement>Venice, Italy</settlement>
+                     <idno type="n/a"/>
+                     <msName>Diplomatic Letters: Letters of Venetian Ambassadors to the Doge</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">See RLDL3</ab>
+                  <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXXV; <date>7 February 1633/4</date>; Italian; paper.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPCL">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#TNA"/>
+                     <idno type="shelfmark">Public Record Office, SP 16/441/46</idno>
+                     <msName>Letter of the Inner Temple to the Privy Council</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="techDesc"><date>5 January 1639/40</date>; English; paper; single sheet; 335mm x 235mm. Unsigned copy, now bound and foliated as ff 126–7.</ab>
+               </msDesc>
             </listBibl>
+               
+                     
+                  
+                    
+                  
          </div>
       </body>
    </text>
