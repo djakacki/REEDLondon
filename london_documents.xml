@@ -248,6 +248,9 @@
             <category xml:id="letter">
                <catDesc>correspondence</catDesc>
             </category>
+            <category xml:id="grays_inn">
+               <catDesc>inns of court, Gray's Inn</catDesc>
+            </category>
          </category>
          <category xml:id="repositories">
             <catDesc>Repositories</catDesc>
