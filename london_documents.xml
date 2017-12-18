@@ -424,6 +424,14 @@
                   </choice>
                </catDesc>
             </category>
+            <category xml:id="REED">
+               <catDesc>
+                  <choice>
+                     <abbr>REED</abbr>
+                     <expan>Records of Early English Drama</expan>
+                  </choice>
+               </catDesc>
+            </category>
             <category xml:id="STRO">
                <!-- Staffordshire Record Office not used for Inns of Court -->
                <catDesc>
@@ -562,7 +570,7 @@
             <head>Sources</head>
             <note>First set of sources corresponds with print 'IoC: The Documents' section, pages xlviii-lxxxii</note>
  
-            <listBibl>             
+            <listBibl>               
                <msDesc xml:id="RLGIPB1">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -575,6 +583,31 @@
                      The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society) 1569–1669, vol 1 (London, 1901).</ab>
                   <ab type="techDesc"><date>1569-1678</date>; Latin and English; paper; iii + 567; 375mm x 260mm;
                      contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio [i] contains a list of musicians dated 22 October 1618; ff [i verso] to [ii verso] contain a partial table of contents for the first 287 leaves; f [iii] is an account sheet from 1569.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="IC1">
+                  <msIdentifier>
+                     <settlement>Toronto, CA</settlement>
+                     <repository sameAs="#REED"/>
+                     <msName>Inns of Court, Volume 1</msName>
+                  </msIdentifier>
+               </msDesc>
+               
+               
+               <msDesc xml:id="IC2">
+                  <msIdentifier>
+                     <settlement>Toronto, CA</settlement>
+                     <repository sameAs="#REED"/>
+                     <msName>Inns of Court, Volume 2</msName>
+                  </msIdentifier>
+               </msDesc>
+               
+               <msDesc xml:id="IC3">
+                  <msIdentifier>
+                     <settlement>Toronto, CA</settlement>
+                     <repository sameAs="#REED"/>
+                     <msName>Inns of Court, Volume 3</msName>
+                  </msIdentifier>
                </msDesc>
                
                <msDesc xml:id="RLGIAB">
