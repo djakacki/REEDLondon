@@ -287,6 +287,7 @@
             <table corresp="#IC1 p. 92, ll. 15-18">
                <row>
                   <cell>Item paied vnto the mvsic<hi rend="italic">i</hi>ons ffor Christenmas</cell>
+                  <cell></cell>
                </row>
                <row>
                   <cell>a<hi rend="italic">nn</hi>o xj° E<hi rend="italic">lizabethae</hi> Regine</cell>
@@ -311,6 +312,7 @@
             <table corresp="#IC1 p. 94, ll. 15-18">
                <row>
                   <cell>Item to the carpenter for mendynge tables and trestles</cell>
+                  <cell></cell>
                </row>
                <row>
                   <cell>this winter broken with revelles at sundrye tymes</cell>
@@ -374,6 +376,7 @@
             <table corresp="#IC1 p. 96, ll. 13-16">
                <row>
                   <cell>Item vnto the Mvsicions for Christmas Anno xv°</cell>
+                  <cell></cell>
                </row>
                <row>
                   <cell>Regni Regine the Some of</cell>
@@ -690,7 +693,6 @@
       </body>
    </text>   
    
-   <!-- Fill in long record -->
    <text ana="taxon:grays_inn" type="record" n="1594-5">
       <body xml:lang="eng">
          <head>
@@ -705,20 +707,233 @@
                
                <ab corresp="#IC1 page 121, lines 35-40 page 122, full page, page ...">It ys orderyd that Mr Will<hi rend="italic">ia</hi>m Mills shalbe intreatyd to delyuer vnto Mr Will<hi rend="italic">ia</hi>m Iohnson &amp; Mr Edward Morrys the some of one hvndryd mark<hi rend="italic">es</hi>
                   <pb corresp="#IC1 p. 123"/>
-                  to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<hi rend="italic">es</hi> &amp; shewes this Shrovetyde at the Court before the Queenes Ma<hi rend="italic">ies</hi>tie, the same hvndryd m<hi rend="italic">a</hi>rk<hi rend="italic">es</hi> to be payd agayne to the sayd Mr Mills hys Exec<hi rend="italic">utors</hi> or Assign<hi rend="italic">es</hi> before thend of the next Term</ab>
+                  to be layd out &amp; bestowyd vppon the Gentlemen for ther sport<hi rend="italic">es</hi> &amp; shewes this Shrovetyde<note>8m/ Shrovetyde, shrovetyd, shrouetide: 2–4 March 1594/5</note> at the Court before the Queenes Ma<hi rend="italic">ies</hi>tie, the same hvndryd m<hi rend="italic">a</hi>rk<hi rend="italic">es</hi> to be payd agayne to the sayd Mr Mills hys Exec<hi rend="italic">utors</hi> or Assign<hi rend="italic">es</hi> before thend of the next Term</ab>
                <gap reason="omitted"/>
-               <ab>At this pencion it is ordred y<hi rend="italic">a</hi>t every Reader of this house toward<hi rend="italic">es</hi> the charges of the shewes and desport<hi rend="italic">es</hi> before her Maiestie at shrovetyd last past shall pay tenne shilling<hi rend="italic">es</hi> &amp; eu<hi rend="italic">ery</hi>e Auncient vj s. viij d. &amp; eu<hi rend="italic">ery</hi>e vterbarester v s. euerye other gentleman of this societie iiij s. before thend of this terme whether they be in comons or lying in the house or About the same house &amp; this collection to contynew tyll thend of the next terme And the house toward<hi rend="italic">es</hi> the Aforsaid charges is to Allowe out of the publique Stock of the said house the some of</ab>
+               
+               <table>
+                  <row>
+                     <cell>At this pencion it is ordred y<hi rend="italic">a</hi>t every Reader of this house toward<hi rend="italic">es</hi> the charges of the shewes and desport<hi rend="italic">es</hi> before her Maiestie at shrovetyd last past shall pay tenne shilling<hi rend="italic">es</hi> &amp; eu<hi rend="italic">ery</hi>e Auncient vj s. viij d. &amp; eu<hi rend="italic">ery</hi>e vterbarester v s. euerye other gentleman of this societie iiij s. before thend of this terme whether they be in comons or lying in the house or About the same house &amp; this collection to contynew tyll thend of the next terme And the house toward<hi rend="italic">es</hi> the Aforsaid charges is to Allowe out of the publique Stock of the said house the some of</cell>
+                     <cell>xxx li.</cell>
+                  </row>
+               </table>
                <gap reason="omitted"/>
             </div>
             <div type="margin">
-               <ab>a Tax for shewes &amp; sport<hi rend="italic">es</hi> before her Ma<hi rend="italic">iest</hi>ie at shrouetide</ab>
+               <div>
+                  <ab corresp="#IC1 p. 121, ll. 39-40">Mr William Mills to Lend C markes</ab>
+               </div>
+            <div type="margin">
+               <ab corresp="#IC1 p. 122, ll. 6-8">a Tax for shewes &amp; sport<hi rend="italic">es</hi> before her Ma<hi rend="italic">iest</hi>ie at shrouetide</ab>
             </div>
          </div>
-         <div type="margin">
-            <div>
-               <ab>Mr William Mills to Lend C markes</ab>
+            <div type="transcription">
+               <div>
+                  <head>f216 <supplied>(21 May)</supplied></head>
+                  <pb n="f216" type="folio"/>
+                  
+                  <gap reason="omitted"/>
+                  <ab corresp="#IC1 p. 122, ll. 20-32">Att this penc<hi rend="italic">i</hi>on it is ordered that in Respect of the great charges at this tyme
+                     lying vpon the house and your Exceeding great necligences in discharging
+                     of your dueties that all those whose names be subscribed being ordynariely
+                     lyers out of comons &amp; all others of this societie being in or About London
+                     shall before the last day of this instant moneth of may resort into comons &amp;
+                     discharge suche money and other dueties as be due or Assessed vpon them
+                     &amp; eu<hi rend="italic">ery</hi>e of them by thorders of this house viz comons pencions vacations
+                     fire roulles vnto Mr Doctors intertaynment toward the charges of sport<hi rend="italic">es</hi>
+                     before her Ma<hi rend="italic">ies</hi>tie and all other dueties whatsoever otherwise from thensforth
+                     to be out of comons and so to remayne if they reforme not themselves vntill
+                     the last day of Iune next comynge and who so shall not before that tyme
+                     conforme himself therin to be then ^⎡c⎤sforth no longer fellowe of this societie
+                     but ipso facto to be expelled the same</ab>
+                  <table>
+                     <row>
+                        <cell>Andrewes W<hi rend="italic">illiam</hi></cell>
+                        <cell>Dove</cell>
+                        <cell>Muskett</cell>
+                        <cell>Smyth Ia<hi rend="italic">mes</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Abnett</cell>
+                        <cell>Escourt Iu<hi rend="italic">nior</hi></cell>
+                        <cell>Morris Ed<hi rend="italic">ward</hi></cell>
+                        <cell>Sheaffeild</cell>
+                     </row>
+                     <row>
+                        <cell>Bowne</cell>
+                        <cell>Ellis Ed<hi rend="italic">ward</hi></cell>
+                        <cell>Marshall</cell>
+                        <cell>Spurling Ia<hi rend="italic">mes</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Bing G<hi rend="italic">eorge</hi></cell>
+                        <cell>Ellis W<hi rend="italic">illiam</hi></cell>
+                        <cell>Marshe</cell>
+                        <cell>Tyldesley T<hi rend="italic">homas</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Bold T<hi rend="italic">homas</hi></cell>
+                        <cell>Ellis B<hi rend="italic">ernard</hi></cell>
+                        <cell>Newton</cell>
+                        <cell>[Tylney Ro<hi rend="italic">bert]</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Burton B<hi rend="italic">artyn</hi></cell>
+                        <cell>ffleetwod H<hi rend="italic"></hi></cell>
+                        <cell>Pepps T<hi rend="italic">homas</hi> sen<hi rend="italic">ior</hi></cell>
+                        <cell>Vaughan T<hi rend="italic">homas</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Brickett</cell>
+                        <cell>°mort<hi rend="italic">uus</hi>° Goad</cell>
+                        <cell>Piggott Io<hi rend="italic">hn</hi></cell>
+                        <cell>Whetstone</cell>
+                     </row>
+                     <row>
+                        <cell>Brigg<hi rend="italic">es</hi></cell>
+                        <cell>Hendon</cell>
+                        <cell>Piggott Ra<hi rend="italic">lph</hi></cell>
+                        <cell>Williamson</cell>
+                     </row>
+                     <row>
+                        <cell>°mort<hi rend="italic">uus</hi>° Conyers</cell>
+                        <cell>Haye Io<hi rend="italic">hn</hi></cell>
+                        <cell>Rothwell</cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell>Clark Io<hi rend="italic">hn</hi> sen<hi rend="italic">ior</hi></cell>
+                        <cell>Lamploughe</cell>
+                        <cell>Ritche</cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell>Colwell</cell>
+                        <cell>Lacy</cell>
+                        <cell>Roult Ed<hi rend="italic">ward</hi></cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell>Castell Ro<hi rend="italic">bert</hi> sen<hi rend="italic">ior</hi></cell>
+                        <cell>Lancaster T<hi rend="italic">homas</hi></cell>
+                        <cell>Smalpage</cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell>Doughtie</cell>
+                        <cell>Leett Io<hi rend="italic">hn</hi></cell>
+                        <cell>Smith Io<hi rend="italic">hn</hi> Iuni<hi rend="italic">or</hi></cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell>Davenport Hugo</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                     </row>
+                  </table>
+                           
+               <div type="margin">
+                  <div>
+                     <ab corresp="#IC1 p. 122, ll. 20-24">All gent<hi rend="italic">lemen</hi> out of the Commons warned to come into Com<hi rend="italic">m</hi>on<hi rend="italic">es</hi> &amp; beare share of all Com<hi rend="italic">m</hi>on Charges</ab>
+                  </div>
+                  <div>
+                     <ab corresp="#IC1 p. 122, l. 25">"Nota"</ab>
+                  </div>
+               </div>
+                  
+                  <gap reason="omitted"/>  
+               </div>
+            </div>
+            
+            <div type="transcription">
+               <div>
+                  <head>f 216v <supplied>(1 July)</supplied></head>
+                  <pb n="f216v" type="folio"/>
+                  
+                  <gap reason="omitted"/>
+                  
+                  <ab corresp="#IC1 p. 123, ll. 12-17">At this pencion it is ordered that all these gentlemen whose names are
+                     subscribed shalbe out of this [hou] societie of this house for ther non payment
+                     of Comons and other dueties and for the breache of An order mayd in pencion the xxj<hi rend="sup">th</hi> of May Anno 37⎡o⎤ last past for the reformation of those and sundry disorders being publiquely set vp in the vsuall place of the said hall for y<hi rend="italic">a</hi>t purpose</ab>
+                  
+                  <table>
+                     <row>
+                        <cell>Andrewes W<hi rend="italic">illiam</hi></cell>
+                        <cell>Goad ºmort<hi rend="italic">uus</hi>º</cell>
+                        <cell>Stafferton</cell>
+                     </row>
+                     <row>
+                        <cell>Abnett</cell>
+                        <cell>Haye Io<hi rend="italic">hn</hi></cell>
+                        <cell>Smyth Io<hi rend="italic">hn</hi> Iu<hi rend="italic">nior</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Bowne</cell>
+                        <cell>Lacy Ro<hi rend="italic">bert</hi></cell>
+                        <cell>[Sheaffeild]</cell>
+                     </row>                        
+                     <row>
+                        <cell>ºrestoredº Brickett</cell>
+                        <cell>Lancaster T<hi rend="italic">homas</hi></cell>
+                        <cell>[Tyldesley T<hi rend="italic">homas</hi>]</cell>
+                     </row>
+                     <row>
+                        <cell>Conyers ºmort<hi rend="italic">uus</hi>º</cell>
+                        <cell>Leett</cell>
+                        <cell>[Tylney Ro<hi rend="italic">bert</hi>]</cell>
+                     </row>
+                     <row>
+                        <cell>Clark Io<hi rend="italic">hn</hi> senior</cell>
+                        <cell>Marshall</cell>
+                        <cell>Vaughan T<hi rend="italic">homas</hi></cell>
+                     </row>
+                     <row>
+                        <cell>Colwell</cell>
+                        <cell>Pepps T<hi rend="italic">homas</hi> sen<hi rend="italic">ior</hi></cell>
+                        <cell>Whetston</cell>
+                     </row>
+                     <row>
+                        <cell>ºrestoredº Castell Ro<hi rend="italic">bert</hi> sen<hi rend="italic">ior</hi></cell>
+                        <cell>Piggott Ra<hi rend="italic">lph</hi></cell>
+                        <cell>Williamson</cell>
+                     </row>
+                     <row>
+                        <cell>[⟨...⟩]</cell>
+                        <cell>Piggott Io<hi rend="italic">hn</hi></cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell>[⟨...⟩]</cell>
+                        <cell>Ritche</cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell></cell>
+                        <cell>Rolt Ed<hi rend="italic">ward</hi></cell>
+                        <cell></cell>
+                     </row>
+                  </table>
+                  
+                  <ab>At the same pencion it is ordered that Mr Lany<note>Mr Lany: treasurer</note> the recever of thadmittance money shall pay vnto Mr Mills out of the same Admittance Money the some of xl li. over and besid<hi rend="italic">es</hi> the four pound remaynyng in the hand<hi rend="italic">es</hi> of the said Mr Mills for the admission of Mr Evers into the fellowshippe of this house which money the said Mr Mills receaved of the said Mr Evers all which is toward the discharg of the some of A [C mark<hi rend="italic">es</hi>] C Mark<hi rend="italic">es</hi> disbursed by the said Mr Mills at the instance of the readers of this house towardes the disport<hi rend="italic">es</hi>
+                     ^⎡before her maiestie⎤ at shrovetyd last past<note>shrovetyd last past: 2–4 March 1594/5</note></ab>
+                  <gap reason="omitted"/>
+               </div>
+               
+               <div type="transcription">
+                  <div>
+                     <head>f 217 <supplied>(8 July)</supplied></head>
+                     <pb n="f217" type="folio"/>
+                     
+                     <gap reason="omitted"/>
+                     <ab corresp="#IC1 p. 124, ll. 3-5">The remanant of the debt due to Mr Mills being xvij li. vj s. viij d. yt ys ordred that Mr Nightingale shall make payment of to the said Mr Mills out of the Admyttance money/</ab>
+                  </div>
+                  <div type="margin">
+                     <ab corresp="#IC1 p. 124, ll. 3-5">The reman<hi rend="italic">ant</hi> of Mr Mills money Lent allowed</ab>
+                  </div>
+               </div>
             </div>
          </div>
+                  
       </body>
    </text>
    
