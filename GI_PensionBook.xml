@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<!-- REMINDER: associate this document with the REED.rng schema - remains commented out and using TEI-All until then -->
-
-<!--     
+<?xml version="1.0" encoding="UTF-8"?>   
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
@@ -268,6 +261,7 @@
          
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2017-12-19" who="#JAKA1">uploaded first version to CWRC</change>
          <change when="2017-12-16" who="#JAKA1">created document to compile Gray's Inn records by Pension Book document</change>
       </revisionDesc>
       
@@ -279,7 +273,8 @@
          <head>
             <date from-iso="1568" to-iso="1589">1568-9</date>
             <seg ana="taxon:RLGIPB1">RLGIPB1</seg></head>
-         <div type="transcription">   
+         <div type="transcription">
+            <div>
             <head>f [iiiv] <supplied>(Money laid out for the house)</supplied></head>
             <pb n="f[iiiv]" type="folio"/>
             
@@ -296,6 +291,7 @@
             </table>
             <gap reason="omitted"/>
          </div>
+         </div>
       </body>
    </text>
    
@@ -305,6 +301,7 @@
             <date from-iso="1570" to-iso="1571">1570-1</date>
             <seg ana="taxon:RLGIPB1">RLGIPB1</seg></head>
          <div type="transcription">
+            <div>
             <head>f 28 <supplied>(14 May 1570–3 June 1571) (Disbursements)</supplied></head>
             <pb n="f28" type="folio"/>
             
@@ -319,6 +316,7 @@
                   <cell>0 10 0</cell>
                </row>
             </table>
+         </div>
          </div>
       </body>
    </text>
