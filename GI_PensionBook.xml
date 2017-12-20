@@ -286,10 +286,10 @@
                </row>
                <row>
                   <cell>a<hi rend="italic">nn</hi>o xj° E<hi rend="italic">lizabethae</hi> Regine</cell>
-                  <cell>xxvj s. viij d.</cell>
+                  <cell>xxvj s. viij d.</cell><!-- You've quite understandably broken the record above into two rows. This does follow the layout used in the print collection, but that layout is arbitrary. The typesetter knew he would have to break the line somewhere and so chose a place that would look good, which is not reflective of original ms layout. This is usually case for all these types of records, ie, itemized accounts with each item followed by a sum (often with white space separating the text from the sum). You can think of any one item followed by one sum as one long line, ie, one row only, not two. This will make the coding easier! And because the line breaks in most of these itemized accounts are arbitrary and not reflective of ms layout, it would be better not to carry REED print layout into TEI. #CB 2017-12-09 -->
                </row>
             </table>
-            <gap reason="omitted"/>
+            <gap reason="omitted"/><!-- REED Online doesn't use an opening and closing <gap> tag for the omission elipses, we only use one: <gap reason="omitted"/> Love to know if your way is better practice. #CB 2017-12-09 -->
          </div>
          </div>
       </body>
