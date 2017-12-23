@@ -570,21 +570,8 @@
             <head>Sources</head>
             <note>First set of sources corresponds with print 'IoC: The Documents' section, pages xlviii-lxxxii</note>
  
-            <listBibl>               
-               <msDesc xml:id="RLGIPB1">
-                  <msIdentifier>
-                     <settlement>London</settlement>
-                     <repository sameAs="#GIA"/>
-                     <idno type="shelfmark">PEN/1/1</idno>
-                     <msName>Gray's Inn Pension Book 1</msName>
-                  </msIdentifier>
-                  <ab type="edDesc">Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His Origines Juridiciales (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.<lb/>
-                     
-                     The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society) 1569–1669, vol 1 (London, 1901).</ab>
-                  <ab type="techDesc"><date>1569-1678</date>; Latin and English; paper; iii + 567; 375mm x 260mm;
-                     contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio [i] contains a list of musicians dated 22 October 1618; ff [i verso] to [ii verso] contain a partial table of contents for the first 287 leaves; f [iii] is an account sheet from 1569.</ab>
-               </msDesc>
-               
+            <listBibl>
+<!-- REED Inns of Court volumes -->
                <msDesc xml:id="IC1">
                   <msIdentifier>
                      <settlement>Toronto, CA</settlement>
@@ -610,6 +597,22 @@
                   </msIdentifier>
                </msDesc>
                
+<!-- Gray's Inn documents -->
+               <msDesc xml:id="RLGIPB1">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#GIA"/>
+                     <idno type="shelfmark">PEN/1/1</idno>
+                     <msName>Gray's Inn Pension Book 1</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Surviving Pension Books date from 1568–9. William Dugdale consulted an earlier volume, now lost. His Origines Juridiciales (1666) preserves entries from 1529–30 and 1550–1 (see pp 58–9, 74; see p lxxvi for document description). Financial accounts were entered in the Pension Book to 1582–3, and thereafter in Ledger Books. The library holds microfiche of the Pension Books produced in 1976 (skipping ff 234v–5), and digital photos of PEN/1/1 (Pension Book 1), taken in 2006 when the volume was disbound for conservation.<lb/>
+                     
+                     The standard essential publication is Reginald J. Fletcher (ed), The Pension Book of Gray’s Inn (Records of the Honourable Society) 1569–1669, vol 1 (London, 1901).</ab>
+                  <ab type="techDesc"><date>1569-1678</date>; Latin and English; paper; iii + 567; 375mm x 260mm;
+                     contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio [i] contains a list of musicians dated 22 October 1618; ff [i verso] to [ii verso] contain a partial table of contents for the first 287 leaves; f [iii] is an account sheet from 1569.</ab>
+               </msDesc>
+              
+               
                <msDesc xml:id="RLGIAB">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -632,7 +635,7 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc">Accounts were kept from Easter to Easter by the pensioner, but from November to November by the treasurer. Despite the legend on the spine the earliest accounts are from 1584 (f 8v). Some butlers’ accounts are also included. Some accounts are out of order, apparently having been entered from rough books without strict attention to chronological sequence. Folios 91v–109v are largely blank, except for two accounts dated 1673 and 1677. No accounts survive for the years 1614–34. Two leaves covering receipts from 1634 to 1637 (ff 110–11v) are heavily damaged (but would not have contained payments relevant to REED).</ab>
                   <ab type="techDesc"><date>1584–1680;</date> Latin and English; paper; ii + 406 + ii; 420mm x 270mm; contemporary ink foliation 1–225 and contemporary ink pagination 226–406; 19th-c. binding in leather over board, title on spine in gold: ‘LEDG. | A | 1586.’</ab>
                </msDesc>
-               
+
                <msDesc xml:id="RLABJB">
                   <msIdentifier>
                      <settlement>Dorchester</settlement>
@@ -643,7 +646,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc">John Bankes was treasurer of Gray’s Inn.</ab>
                   <ab type="techDesc"><date>1631–4</date>; English; paper; 15 quires of 12 leaves each except quire 3 with 14 leaves; 360mm x 220mm; unnumbered; writing on ff [1], [3–3v], [5], [8–10v] only; bound in parchment, f [1]: ‘Receits of Pentions Rent<hi rend="italic">es</hi> and other yearely profittes in the tyme of S<hi rend="italic">ir</hi> Iohn Bankes Treasurer since <hi rend="italic">(blank)</hi> November 1631.’</ab>
                </msDesc>
-               
+
+<!-- Inner Temple Documents -->
                <msDesc xml:id="RLITPB1">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -726,6 +730,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                <!-- for Middle Temple Loose Papers Three Categories - each with edDesc: GDE, MAA, MAB, TUT -->               
                
                <!-- Go back and fill in pages lvii to lxii -->
+
+<!-- Diplomatic Letters -->
                
                <msDesc xml:id="RLDL1">
                   <msIdentifier>
@@ -780,8 +786,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc">See RLDL3</ab>
                   <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXXV; <date>7 February 1633/4</date>; Italian; paper.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLPCL">
+
+<!-- Private Correspondence -->
+               <msDesc xml:id="RLPC001">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#TNA"/>
@@ -791,6 +798,258 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc"></ab>
                   <ab type="techDesc"><date>5 January 1639/40</date>; English; paper; single sheet; 335mm x 235mm. Unsigned copy, now bound and foliated as ff 126–7.</ab>
                </msDesc>
+               
+               <msDesc xml:id="RLPC002">
+                  <msIdentifier>
+                     <settlement>Washington, DC</settlement>
+                     <repository sameAs="#folger-shakespeare-library"/>
+                     <idno type="shelfmark">MS L.b.298 </idno>
+                     <msName>Letter of William Baldwin to Sir Thomas Cawarden</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="techDesc"><date>c 1555</date>;English; paper; bifolium (no longer conjugate except by repair); 307mm x 218mm; previous foliation 115; addressed: ‘To the right wurshipfull Syr Thomas Caverden dd’; endorsed: ‘The note of a playe and the nayemes of players Anno 1556,’ ‘Revylls,’ ‘1556,’ ‘a lettre of a play’.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPC003">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#BL"/>
+                     <idno type="shelfmark">Lansdowne MS 107</idno>
+                     <msName>Letter of Francis Bacon to William Cecil, Lord Burghley</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.</ab>
+                  <ab type="techDesc">undated; English; paper; single sheet; 175mm x 260mm; written on 1 side only. Mounted in guardbook and numbered as f 13.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPC004">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#LP"/>
+                     <idno type="shelfmark">Talbot 3199, Letter 249</idno>
+                     <msName>Letter of the Middle Temple to the Earl of Shrewsbury</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="techDesc"><date>1597</date>; English; paper; bifolium; 290mm x 195mm. Now paginated 249–52 and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. H, formerly at the College of Arms.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPC005">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#LP"/>
+                     <idno type="shelfmark">Talbot 3201, Letter 77</idno>
+                     <msName>Letter of the Prince d’Amour to the Earl of Shrewsbury</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="techDesc"><date>25 December 1597</date>; English; parchment; bifolium; 270mm x 185mm. Now foliated 77–7v and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. K, formerly at the College of Arms.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPC006">
+                  <msIdentifier>
+                     <settlement>Hatfield</settlement>
+                     <repository sameAs="#HHL"/>
+                     <idno type="shelfmark">Cecil Papers Vol. 85/18</idno>
+                     <msName>etter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">At the time this letter was written Sir John Popham (c 1531–1607) was chief justice of the king’s bench. As a prominent member of the Middle Temple, he was in a position to offer the Inn’s funds, and the services of its young gentlemen, to entertain the queen. The recipient of Popham’s letter was Sir Robert Cecil (1563–1612), then secretary of state.</ab>
+                  <ab type="techDesc"><date>8 February 1601/2</date>; English; paper; bifolium; 301mm x 199mm; unnumbered; addressed: ‘To the Right honorable Sir Robert Cycell knight principall Secretarie to her Maiestie,’ and endorsed: ‘8: februar: 1610 Lord chief Justice To my Master.’</ab>
+               </msDesc>
+
+<!-- Diaries and Reminiscences -->
+               <msDesc xml:id="RLDR001">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#BL"/>
+                     <idno type="shelfmark">Hargrave MS 388</idno>
+                     <msName>LEGAL REPORT OF SIR JOHN SPELMAN ON GRAY’S INN</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="techDesc"><date>c 1500</date>; French; iii + 255 + iii; 214mm x 148mm; 19th-c. pencil foliation 1–255, skipping many blanks and including preliminaries, supersedes older pen foliation. Rebound with BL: Hargrave MS 1963, title on spine: ‘REPORTS OF CASES, ETC.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDR002">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#BL"/>
+                     <idno type="shelfmark">Additional MS 53726</idno>
+                     <msName>BULSTRODE WHITELOCKE’S ‘ANNALS’</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">The MS remained in the possession of the Whitelocke family until purchased by the British Library in 1966. Fair copy, in the author’s hand, of an MS draft is now lost. The second volume, containing nothing of REED interest, is BL: Additional MS 37343 (beginning 1634).</ab>
+                  <ab type="techDesc"><date>1650?</date>; English; paper; 114 + ii; 300mm x 195mm; modern pencil foliation 1–114 supersedes 18th-c. ink pagination 25–245; each page divided by a vertical rule, text in 2 columns, each column headed by Whitelocke’s age (ie, 1633–4 is ‘Year 29’: each year begins on 6 August, his birthday); original parchment covers rebound in 19th-c. leather over board, now loose. The first 12 leaves, containing preface, are now BL: Additional MS 4992, ff 2–13.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDR003">
+                  <msIdentifier>
+                     <settlement>Rousham, Oxfordshire</settlement>
+                     <repository sameAs="#RH"/>
+                     <idno type="shelfmark">MS MC2</idno>
+                     <msName>MEMOIRS OF JOHN FINET</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Sir John Finet (or Finett) (1570 or 1571–1641), courtier, was knighted by James I in 1616 and served as master of ceremonies to Charles I beginning in 1627. Finet compiled written descriptions of ceremonies he witnessed and supervised, and took great care to preserve these for posterity. MS MC2 is the fourth of three notebooks, ‘Thyrd’ to ‘fift,’ from an original series of five. The majority of the first two, now lost, was published as Finetti Philoxenis (1656). Previously printed by Albert J. Loomie (ed), Ceremonies of Charles I: The Note Books of John Finet 1628–1641 (New York, 1987).</ab>
+                  <ab type="techDesc"><date>1632–7</date>; English; paper; v + 156 + iii; 209mm x 161mm (175mm x 110mm); contemporary foliation; vellum binding, written on f [v] verso ‘My 4th booke of notes and observations Concerning Ambassadores, &amp;c. Beginning [at] in May 1632.’</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLDR004">
+                  <msIdentifier>
+                     <settlement>??</settlement>
+                     <repository/>
+                     <idno>Wing: F947</idno>
+                     <msName>SIR JOHN FINET, FINETTI PHILOXENIS</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Sir John Finet (or Finett) (1570 or 1571–1641), courtier, was knighted by James I in 1616 and served as master of ceremonies to Charles I beginning in 1627. Finet compiled written descriptions of ceremonies he witnessed and supervised, and took great care to preserve these for posterity. MS MC2 is the fourth of three notebooks, ‘Thyrd’ to ‘fift,’ from an original series of five. The majority of the first two, now lost, was published as Finetti Philoxenis (1656). Previously printed by Albert J. Loomie (ed), Ceremonies of Charles I: The Note Books of John Finet 1628–1641 (New York, 1987).</ab>
+                  <ab type="pubDesc">FINETTI PHILOXENIS: | SOM CHOICE | OBSERVATIONS | OF | Sr. JOHN FINETT | KNIGHT, | And Master of the CEREMONIES | to the two last | KINGS, | Touching the Reception, and | Precedence, the Treatment and | Audience, the Puntillios and Con- | tests of Forren | AMBASSADORS | IN | ENGLAND. [rule] | Legati ligant Mundum. | [ rule] | LONDON | Printed by T. R. for H. Twyford and G. Bedell, and are | to be Sold at their Shops in Vine-Court Middle | Temple and the Middle Temple Gate. <date>1656</date>.</ab>
+               </msDesc>
+               
+<!-- Published Histories (contemporary) -->               
+               
+               <msDesc xml:id="RLPH001">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC : 12723a.</idno>
+                     <msName>EDWARD HALL, THE UNYON OF LANCASTRE AND YORKE</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">The history of fifteenth-century England composed by Edward Hall (1497–1547), a member of Gray’s Inn by 1521, is most famous as a source for history plays by William Shakespeare.</ab>
+                  <ab type="pubDesc">Edward Halle, [The unyon of the two noble and illustre famelies of Lancastre and Yorke...], Jmprynted at Londo[n]: By Rychard Grafton, Prynter to the Kynges Maiesty, <date>1550</date>.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPH002">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC : 11225.</idno>
+                     <msName>JOHN FOXE, ACTES AND MONUMENTS</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">John Foxe (1516 or 1517–1587), the martyrologist, published not only horrific descriptions and illustrations of martyrdom in his Actes and Monuments, but more pedestrian accounts which have proved of value to historians of English life and culture.</ab>
+                  <ab type="pubDesc">[within an illustrated border] ACTES | and Monuments of matters most | speciall and memorable, happenyng in the | Church, with an Vniuersall history of the same, | wherein is set forth at large the whole race and course | of the Church, from the primitiue age to these lat- | ter tymes of ours, with the bloudy times, horrible trou- | bles, and great persecutions agaynst the true Martyrs | of Christ, sought and wrought as well by Heathen | Emperours, as nowe lately practised | by Romish Prelates, especially in this | Realme of England and | Scotland. | ¶ Newly reuised and recognised, partly also | augmented, and now the fourth time agayne | published and recommended to the studious | Reader, by the Author (through the helpe of | Christ our Lord) IOHN FOXE, which | desireth thee good reader to helpe him | with thy Prayer. | APOC. VIII. | Salus sedenti super thronum &amp; agno. | An. 1583. Mens. Octobr. [Colophon:] At London: Imprinted by Iohn Daye, dwellyng ouer Aldersgate beneath S. Martins], 1583.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPH003">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC : 23338.</idno>
+                     <msName>JOHN STOW, THE ANNALES, OR GENERALL CHRONICLE OF ENGLAND</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">John Stow (1524 or 1525–1605) was a prolific historian whose oft-published Annales (of England) and Survay (of London) survived his own death under the hands of later editors.</ab>
+                  <ab type="pubDesc">[within illustrated border] THE | ANNALES, | OR | GENERALL CHRO- | nicle of England, begun first by | maister IOHN STOW, and | after him continued and augmented | with matters forreyne, and do- | mestique, auncient and moderne, | vnto the ende of this | present yeere 1614. | by EDMOND | Howes, gen- | tleman, | [(triangle of dots)] | LONDINI | Impensis Thomæ | Adams. | <date>1615</date>.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPH004">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">Wing: L1189</idno>
+                     <msName>HAMON L’ESTRANGE, THE REIGN OF KING CHARLES: AN HISTORY</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Hamon L’Estrange (1605–60) was a theologian and royalist whose history of Charles I was published, with a claim of impartiality, during the interregnum.</ab>
+                  <ab type="pubDesc">THE | REIGN | OF | King CHARLES: | An HISTORY | Faithfully and Impartially delivered and dispo- | sed into ANNALS. | [rule] | [illustration of crown, within a square of rules] | [rule] | LONDON, | Printed by E. C. for Edward Dod, and Henry Seile the younger, | and are to be sold at the Gun in Ivie-lane, and over against | St. Dunstans Church in Fleet-street, <date>1655</date>.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPH005">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">Wing: D2488</idno>
+                     <msName>SIR WILLIAM DUGDALE, ORIGINES JURIDICIALES</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">(supplied in Appendix 11</ab>
+                  <ab type="pubDesc">ORIGINES | JURIDICALES, | OR | Historical Memorials | OF THE | English Laws, Courts of Justice, | Forms of Tryall, | Punishment in Cases Criminal, | Law Writers, Law Books, | Grants and Settlements of Estates, | Degree of Serjeant, | Innes of Court and Chancery. | [rule] | Also A | CHRONOLOGIE | Of the Lord Chancelors and Keepers of the great Seal, | Lord Treasurers, | Justices Itinerant, | Justices of the Kings Bench and Common Pleas, | Barons of the Exchequer, | Masters of the Rolls, | Kings Attorneys and Sollicitors, | &amp; | Serjeants at Law, | BY | WILLIAM DVGDALE Esq: | NORROY King of Arms. | [rule] | LONDON, | Printed by F. and T. Warren, for the Author. | <date>MDCLXVI</date>.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLPH006">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">Wing: H1699M</idno>
+                     <msName>PETER HEYLYN, CYPRIANUS ANGLICUS</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">Peter Heylyn (1599–1662) was a Church of England clergyman whose biography of William Laud, archbishop of Canterbury, was published posthumously.</ab>
+                  <ab type="pubDesc">Cyprianus Anglicus: | OR, THE | HISTORY | OF THE | Life and Death, | OF | The most Reverend and renowned Prelate | WILLIAM | By Divine Providence, | Lord Archbishop of Canterbury ... By P. Heylyn D.D. and Chaplin to Charles the | first and Charles the second, Monarchs of Great Britain ... London: | Printed for A. Seile, <date>MDCLXVIII</date>.</ab>
+               </msDesc>
+
+<!-- Miscellaneous Documents -->
+               
+               <msDesc xml:id="RLMD001">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#LIL"/>
+                     <idno type="shelfmark">MS Misc. 2 (Misc. 46)</idno>
+                     <msName>PRIVATE MEMORANDUM IN A LINCOLN’S INN STATUTE BOOK</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">The statute book described here is further described by N.R. Ker, Medieval Manuscripts in British Libraries, vol 1 (Oxford, 1969), 141. An unknown former owner inscribed a private memorandum on its flyleaves.</ab>
+                  <ab type="techDesc"><date>14th-c.</date> with 15th-c. additions; Latin, with English notation on flyleaves; parchment; i + 227 + vi; 55mm x 85mm; modern pencil foliation i–iv, 1–223; 16th-c. binding of stamped leather over board, clasp (partly missing).</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMD002">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC: 11193</idno>
+                     <msName>SIR JOHN FORTESCUE, PRENOBILIS MILITIS</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="pubDesc">Prenobilis | militis, cognomento Fo- | rescu, qui temporibus Henrici | sexti floruit, de politica ad | ministratione, et legibus | ciuilibus florentisummi | regni Anglie, com- | mentarius | Excusum Londini: Tipis Edwardi | Whitechurche, et veneunt in | edibus Henrici Smyth | bibliopole [<date>1543?</date>].</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMD003">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#BL"/>
+                     <idno type="shelfmark">Lansdowne MS 55</idno>
+                     <msName>CAST LIST FOR GRAY’S INN ‘ROMAN COMEDY’</msName>
+                  </msIdentifier>
+                  <ab type="edDesc"></ab>
+                  <ab type="techDesc"><date>16 January 1587/8</date>; English and Latin; paper; bifolium; 310mm x 205mm; unnumbered; written on 1st page only, prominent fold marks; endorsed. Mounted in guardbook and numbered ff 11–12 and labelled as piece number 4.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMD004">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#BL"/>
+                     <idno type="shelfmark">Additional MS 4125</idno>
+                     <msName>Additional MS 4125</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">For more on this poem, see Janet Cowen and Joanna Udall, ‘The Critical Misfortunes of Arthur?’ Notes and Queries 228 (1983), 402–5.</ab>
+                     <ab type="techDesc"><date>1587–8</date>; paper; single sheet; 280mm x 164mm; written on 1 side only. Mounted in guardbook and numbered f 394.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMD005">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC: 18044</idno>
+                     <msName>JORGE DE MONTEMAYOR, DIANA OF GEORGE OF MONTEMAYOR</msName>
+                  </msIdentifier>
+                  <ab type="pubDesc">[within border] DIANA | OF GEORGE OF | MONTEMAYOR: | Translated out of Spanish into | English by BARTHOLOMEW | YONG of the Middle | Temple Gentleman. | [flower] | [ornament] | At London, | Printed by Edm. Bollifant, | Impensis G. B. | <date>1598</date>. G. B. Is George Bishop.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMD006">
+                  <msIdentifier>
+                     <settlement>London</settlement>
+                     <repository sameAs="#BL"/>
+                     <idno type="shelfmark">Additional MS 23723</idno>
+                     <msName>GRAY’S INN MASQUE</msName>
+                  </msIdentifier>
+                  <ab type="techDesc">undated; English; paper; iii + 37 + i; 154mm x 100mm; modern foliation 1–33 plus 4 unfoliated blanks, superseding original foliation; half-calf binding; title on spine: ‘POETRY, &amp;C. M.S.’</ab>
+               </msDesc>
+
+               <msDesc xml:id="RLMD007">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC : 17878</idno>
+                     <msName>THOMAS MIDDLETON, CIVITATIS AMOR</msName>
+                  </msIdentifier>
+                  <ab type="pubDesc">CIVITATIS AMOR. | The Cities Loue | An entertainement by water, at | Chelsey, and White-hall. | At the ioyfull receiuing of that Illustrious Hope | of Great Britaine, the High and Mighty | CHARLES, | To bee created Prince of Wales, Duke of Corne- | wall, Earle of Chester, &amp;c. | Together with the Ample Order and Solemnity | of his Highnesse creation, as it was celebra- | ted in his Maiesties Palace of White-hall | on Monday, the fourth of | Nouember. 1616. | As also the Ceremonies of that Ancient and | Honourable Order of the Knights of the Bath; | And all the Triumphs showne in honour | of his Royall Creation. | [rule] | LONDON, | Printed by Nicholas Okes for Thomas Archer, and | are to be sold at his shop in Popes- | head-Pallace. 1616.</ab>
+               </msDesc>
+               
+               <msDesc xml:id="RLMD008">
+                  <msIdentifier>
+                     <settlement/>
+                     <idno type="ESTC">STC: 17944a.5</idno>
+                     <msName>JOHN MINSHEU, A CATALOGUE AND TRUE NOTE</msName>
+                  </msIdentifier>
+                  <ab type="edDesc">John Minsheu (1559 or 1560–1627) was a notable language teacher and lexicographer. STC: 17944a.5 is a list of individual or institutional purchasers of John Minsheu’s 1617 ‘Dictionary’ (STC : 17944), printed on both sides of a single sheet. The list was reprinted at least seven times, each time with new names added. An unbound variant, Cambridge University Library: Broadsides XVII (1617), is the first to include the two Inns of Court names, and indeed con- cludes with them. Neither Inn currently holds a copy of Minsheu which might have been acquired through its prince.<lb/>
+                     The complex publication history of the list is noted by the STC and, at greater length, by Franklin B. Williams, Jr, ‘Scholarly Publication in Shakespeare’s Day: A Leading Case,’ in Joseph Quincy Adams Memorial Studies, James G. McManaway, Giles E. Dawson, and Edwin E. Willoughby (eds) (Washington, DC, 1948), 755–73.</ab>
+                  <ab type="pubDesc">[ornamental rule] | A CATALOGVE and true note of the Names of such Persons which (vpon good liking they haue to the worke being a great helpe to memorie) haue receaued the Etymological DICTIONARIE of XI. Languages ... from the handes of Maister MINSHEV the Author, and Publisher of the same ... [1617?].</ab>
+               </msDesc>
+               
+               <!-- How to structure BULSTRODE WHITELOCKE’S PAPERS FOR THE TRIUMPH OF PEACE (pp. lxxix-lxxxi -->
+                  
+<!-- continuing? -->  
+                  
+
             </listBibl>
                
                      
