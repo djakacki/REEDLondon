@@ -40,3 +40,5 @@ Within <biblList> each entry follows this pattern:
 ** For "Diaries and Reminiscences" I have been using the naming structure:
 RLDR00# - same as above, and DR = Diaries Reminiscences
 
+** Where printed contemporary documents are referred to (e.g., Actes and Monuments, Stow's Annals) I have used <ab type="pubDesc"> with the information drawn from the title page as transcribed by Nelson. Where an ESTC or Wing catalog reference is listed, there is no settlement or repository given.
+
