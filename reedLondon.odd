@@ -230,8 +230,7 @@
                   </valList>
                 </attDef>
                 <attDef ident="regalia" mode="add">
-                  <valList type="closed">
-                    
+                  <valList type="closed">                   
                     <valItem ident="crown"><desc>any kind of crown or diadem</desc></valItem>
                     <valItem ident="chain"><desc>a ceremonial chain or chain or office</desc></valItem>
                     <valItem ident="escutcheon"><desc>define escutcheon</desc></valItem>
@@ -241,120 +240,6 @@
                   </attDef>
             </attList>
           </elementSpec>
-<!-- 
-          <valList mode="add" type="closed">
-            <valItem ident="activity">
-              <desc>name of an activity</desc>
-            </valItem>
-            <valItem ident="animal">
-              <desc>name of a type of animal</desc>
-            </valItem>
-            <valItem ident="army">
-              <desc>name of an army or related</desc>
-            </valItem>
-            <valItem ident="character">
-              <desc>name of a character</desc>
-            </valItem>
-            <valItem ident="children">
-              <desc>name of children</desc>
-            </valItem>
-            <valItem ident="council">
-              <desc>name of a council</desc>
-            </valItem>
-            <valItem ident="court_legal">
-              <desc>name of a court or other legal body</desc>
-            </valItem>
-            <valItem ident="document">
-              <desc>name of a document</desc>
-            </valItem>
-            <valItem ident="drink">
-              <desc>name of a drink</desc>
-            </valItem>
-            <valItem ident="foodstuff">
-              <desc>name of some sort of foodstuff</desc>
-            </valItem>
-            <valItem ident="guild">
-              <desc>name of a guild</desc>
-            </valItem>
-            <valItem ident="instrument">
-              <desc>name of an instrument</desc>
-            </valItem>
-            <valItem ident="issue_social">
-              <desc>name of a social issue</desc>
-            </valItem>
-            <valItem ident="material_building">
-              <desc>name of a material or building</desc>
-            </valItem>
-            <valItem ident="occasion_event">
-              <desc>name of an event</desc>
-            </valItem>
-            <valItem ident="occasion_religion">
-              <desc>name of a religious event</desc>
-            </valItem>
-            <valItem ident="occasion_tradition">
-              <desc>name of a traditional event</desc>
-            </valItem>
-            <valItem ident="occupation">
-              <desc>name of an occupation</desc>
-            </valItem>
-            <valItem ident="office">
-              <desc>name of an office</desc>
-            </valItem>
-            <valItem ident="place_built">
-              <desc>name of a built place</desc>
-            </valItem>
-            <valItem ident="place_court">
-              <desc>name of a place of a court</desc>
-            </valItem>
-            <valItem ident="place_playing">
-              <desc>name of a playing place</desc>
-            </valItem>
-            <valItem ident="place_religion">
-              <desc>name of a religion</desc>
-            </valItem>
-            <valItem ident="place_sub_settlement">
-              <desc>name of a sub-settlement, suburb, or area of a city</desc>
-            </valItem>
-            <valItem ident="play_title">
-              <desc>name of a title of a play</desc>
-            </valItem>
-            <valItem ident="prop">
-              <desc>name of a property</desc>
-            </valItem>
-            <valItem ident="rank">
-              <desc>name of a rank</desc>
-            </valItem>
-            <valItem ident="street">
-              <desc>name of a street</desc>
-            </valItem>
-            <valItem ident="troupe">
-              <desc>name of a performing troupe</desc>
-            </valItem>
-            <valItem ident="other">
-              <desc>another non-standard type of name</desc>
-            </valItem>
-          </valList>
- 
-          <elementSpec ident="place" mode="change" module="core">
-            <attList>
-              <attDef ident="type" mode="change">
-                <valList mode="change" type="open">
-                  <valItem ident="country">
-                    <desc>country</desc>
-                  </valItem>
-                  <valItem ident="region">
-                    <desc>county</desc>
-                  </valItem>
-                  <valItem ident="settlement">
-                    <desc>city, town</desc>
-                  </valItem>
-                  <valItem ident="district">
-                    <desc>borough, parish, ward</desc>
-                  </valItem>
-                </valList>
-              </attDef>
-            </attList>
-          </elementSpec> -->
                   
           <!-- date: modify @type -->
           <elementSpec ident="date" mode="change" module="core">
@@ -783,80 +668,7 @@
           </elementSpec>
 
           <!-- delete att.msExcerpt -->
-          <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete"/>
-          
-          <!-- add objectType @thing attribute -->
-
-          <elementSpec ident="objectType" module="msdescription" mode="change">
-            <attList>
-              <attDef ident="thing" mode="add">                
-                <valList type="closed">
-                  <valItem ident="animal"><desc>name of a type of animal</desc></valItem>
-                  <valItem ident="drink"><desc>name of a type of beverage</desc></valItem>
-                  <valItem ident="food"><desc>name of a type of food</desc></valItem>
-                  <valItem ident="other"><desc>another non-standard type of thing</desc></valItem>
-                </valList>
-              </attDef>
-              <attDef ident="musical_instrument" mode="add">
-                <valList type="closed">
-                  <valItem ident="trumpet"><desc>a type of trumpet</desc></valItem>
-                  <valItem ident="bagpipe"><desc>a type of bagpipe</desc></valItem>
-                  <valItem ident="bell"><desc>a type of bell</desc></valItem>
-                  <valItem ident="drum"><desc>a type of drum</desc></valItem>
-                  <valItem ident="harp"><desc>a type of harp</desc></valItem>
-                  <valItem ident="organ"><desc>a type of organ</desc></valItem>
-                  <valItem ident="string_instrument"><desc>any type of stringed instrument, including viols</desc></valItem>
-                  <valItem ident="reed_instrument"><desc>any type of reed instrument</desc></valItem>
-                  <valItem ident="keyboard"><desc>any type of keyboard instrument, including virginals</desc></valItem>
-                  <valItem ident="other"><desc>another non-standard type of instrument</desc></valItem>
-                </valList>
-              </attDef>
-              <attDef ident="clothing_apparel" mode="add">
-                <valList type="closed">
-                  <valItem ident="costume"><desc>any type of costume or play apparel</desc></valItem>
-                  <valItem ident="livery"><desc>any kind of livery</desc></valItem>                  
-                  <valItem ident="coat"><desc>a type of coat</desc></valItem>
-                  <valItem ident="petticoat"><desc>a type of petticoat</desc></valItem>
-                  <valItem ident="gown"><desc>a type of gown or dress</desc></valItem>
-                  <valItem ident="jewels"><desc>any type of jewel, gem, or bauble</desc></valItem>
-                  <valItem ident="cape"><desc>a type of cape</desc></valItem>
-                  <valItem ident="morris_apparel"><desc>morris dancer apparel, including bells</desc></valItem>
-                  <valItem ident="waistcoat"><desc>a type of waistcoat</desc></valItem>
-                  <valItem ident="other"><desc>another non-standard type of clothing or apparel</desc></valItem>
-                </valList>
-              </attDef>
-              <attDef ident="theatre_set" mode="add">
-                <valList type="closed">
-                  <valItem ident="tree"><desc>a tree as a set piece used in performance</desc></valItem>
-                  <valItem ident="maypole"><desc>a maypole used in performance</desc></valItem>
-                  <valItem ident="other"><desc>another non-standard type of theatrical set</desc></valItem>
-                </valList>
-              </attDef>
-              <attDef ident="property_machinery" mode="add">
-                <valList type="closed">
-                  <valItem ident="stilts"><desc>a type of stilts</desc></valItem>
-                  <valItem ident="wand"><desc>a type of wand</desc></valItem>
-                  <valItem ident="other"><desc>another non-standard type of theatrical property or machinery</desc></valItem>
-                </valList>
-              </attDef>
-              <attDef ident="cloth_fabric" mode="add">
-                <valList type="closed">
-                  <valItem ident="silk"><desc>silk fabric</desc></valItem>
-                  <valItem ident="other"><desc>another non-standard type of cloth or fabric</desc></valItem>
-                </valList>
-              </attDef>
-            <attDef ident="regalia" mode="add">
-              <valList type="closed">
-
-                <valItem ident="crown"><desc>any kind of crown or diadem</desc></valItem>
-                <valItem ident="chain"><desc>a ceremonial chain or chain or office</desc></valItem>
-                <valItem ident="escutcheon"><desc>define escutcheon</desc></valItem>
-                <valItem ident="badge"><desc>a badge of honor or office</desc></valItem>
-                <valItem ident="other"><desc>another non-standard type of regalia</desc></valItem>
-              </valList>
-            </attDef>
-            </attList>
-          </elementSpec>
+          <classSpec ident="att.msExcerpt" module="msdescription" type="atts" mode="delete"/>          
                 
 <!-- namesdates: only include orgName, persName, placeName, and settlement. Not doing metadata records for named entities...yet-->
           <moduleRef key="namesdates" include="orgName persName place placeName settlement"/>
