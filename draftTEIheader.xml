@@ -16,11 +16,9 @@
             
             <title type="main">Inns of Court</title>
 
-            <!-- RESOLVE: Who are the funding agencies for the original printed version of Inns of Court? Should Jackman, NEH, and/or SSHRC be cited? -->   
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             
-            <!-- RESOLVE: should CANARIE be cited here as a funder? Please confirm with Susan Brown
-            <funder><orgName>CANARIE</orgName></funder> -->
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
             
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
@@ -28,7 +26,6 @@
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-            <!-- RESOLVE: how do we refer to Alan Nelson and John Elliott as editors of the print edition? -->
 		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
 		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
             
