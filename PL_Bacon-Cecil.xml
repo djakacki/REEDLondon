@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<!-- REMINDER: associate this document with the REED.rng schema - remains commented out and using TEI-All until then -->
-
-<!--     
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
@@ -16,11 +10,9 @@
             
             <title type="main">Inns of Court</title>
 
-            <!-- RESOLVE: Who are the funding agencies for the original printed version of Inns of Court? Should Jackman, NEH, and/or SSHRC be cited? -->   
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             
-            <!-- RESOLVE: should CANARIE be cited here as a funder? Please confirm with Susan Brown
-            <funder><orgName>CANARIE</orgName></funder> -->
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>            
+            <funder><orgName>CANARIE</orgName></funder>
             
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
@@ -223,17 +215,22 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:?" type="?" n="DATE">
+   <text ana="taxon:letter" type="private" n="1595-6">
       <body xml:lang="eng">
          <head>
-            <date>#</date>
-            <seg ana="docu:aa">##</seg></head>
+            <date notBefore="1595" notAfter="1596">1595-6</date>
+            <seg ana="docu:RLPC003">RLPC003</seg></head>
          <div type="transcription">
             <div>
-               <head><supplied>##</supplied></head>
+               <head><supplied>Letter of Francis Bacon to William Cecil, Lord Burghley</supplied></head>
                <pb/>
                
-               <ab></ab>
+               <ab>Yt may please your good L<hi rend="italic">ordship</hi> I am sory the joynt maske from the fowr Innes of Cowrt faileth. Whearin I conceyue thear is no other grownd of that euent, but impossibility.</ab>
+                  <ab>Neuerthelesse bycause it falleth owt that at this tyme Graies Inne is well furnyshed, of galant yowng gentlemen, yo<hi rend="italic">u</hi>r l<hi rend="italic">ordshi</hi>p may be pleased to know, that rather then this occasion shall passe withowt some demonstration of affection from the Innes of Cowrt, Thear are a dozen gentlemen of Graies Inne/ that owt of the honor which they bear to y<hi rend="italic">ou</hi>r l<hi rend="italic">ordship</hi>, and my l<hi rend="italic">ord</hi> Chamberlayne to whome at theyr last maske they were so much bownden, will be ready to furnysh a maske wyshing it were in their powers to performe it according to theyr mynd<hi rend="italic">es</hi>. And so for the p<hi rend="italic">re</hi>sent I humbly take my leaue resting</ab>
+                  <closer><salute>Y<hi rend="italic">ou</hi>r l<hi rend="italic">ordshi</hi>ps very humbly And much bownden</salute>
+                  Fr<hi rend="italic">ancis</hi> Bacon</closer>
+                  <note>Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.</note>
+
             </div>
          </div>
       </body>

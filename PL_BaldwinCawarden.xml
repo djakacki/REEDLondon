@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<!-- REMINDER: associate this document with the REED.rng schema - remains commented out and using TEI-All until then -->
-
-<!--     
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
@@ -219,21 +213,24 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-01-13" who="#JAKA1">developed model for private letter</change>
          <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on Staffordshire</change>
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:?" type="?" n="DATE">
+   <text ana="taxon:letter" type="private" n="1555-6">
       <body xml:lang="eng">
          <head>
-            <date>#</date>
-            <seg ana="docu:aa">##</seg></head>
+            <date when-iso="1555-1556">1555–6 (?)</date>
+            <seg ana="docu:RLPC002">RLPC002</seg></head>
          <div type="transcription">
             <div>
-               <head><supplied>##</supplied></head>
-               <pb/>
+               <head><supplied>Letter of William Baldwin to Sir Thomas Cawarden</supplied></head>
+               <pb n="f [1]*"/>
                
-               <ab></ab>
+               <ab>love and lyve<lb/>
+                  You shall vnderstande syr that I have made a Co<hi rend="italic">m</hi>modie concernyng the way to lyfe, mete as it is supposed to be played ^⎡before⎤ the Quene, and there be of the Innes of court that desyer to have the setting furth therof, but because your m<hi rend="italic">aste</hi>rship now thre yeres passed offered in a sort to set furth su<hi rend="italic">m</hi> of my rude devises, I thought it good to know your mynde herein, before I gave answer to any other/ The settyng furth wil be chargeable because the matter is stately, co<hi rend="italic">m</hi>prehending a discourse of the hole worlde/ There be in it of svndry personages .lxij. and the play is iij. houres long, it is now in learnyng and well be ready within these .x. dayes/ The matter is this, I bring in a yong man whome I name Lamuel who hath a servant called Lob, these two will attempt the worlde to seke theyr fortune, they mete with Lust lucke and love, Lust promiseth them lecherie, Lucke lordship, Love Lyfe, they folow lvst and through lechery be lost, than through Lucke they recover, Lucke bringeth them to lordship from which through Larges and larracine they cu<hi rend="italic">m</hi> to Lacke/ Than through Love, the go to Light &amp; therby attayne Lyfe/ All the players names beginne with L. And be such as ensue</ab><note>In his letter to Sir Thomas Cawarden c 1555–6 (?), Baldwin claims to ‘have made a Co<hi rend="italic">m</hi>modie concernyng the way to lyfe’ appropriate for performance before the queen (Mary); moreover, ‘there be of the Innes of court that desyer to have the setting furth therof.’</note>
+               
             </div>
          </div>
       </body>
