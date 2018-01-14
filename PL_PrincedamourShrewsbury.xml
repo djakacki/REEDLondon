@@ -214,21 +214,19 @@
       </revisionDesc>
    </teiHeader>
    
-   <text ana="taxon:letter" type="private" n="1601-2">
+   <text ana="taxon:;etter" type="private" n="1597">
       <body xml:lang="eng">
          <head>
-            <date notBefore="1601" notAfter="1602">8 February</date>
-            <seg ana="docu:RLPC006">RLPC006</seg></head>
+            <date when-iso="1597-12-25">25 December 1597</date>
+            <seg ana="docu:RLPC005">RLPC005</seg></head>
          <div type="transcription">
             <div>
-               <head><supplied>Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</supplied></head>
+               <head><supplied>Letter of the Prince d’Amour to the Earl of Shrewsbury</supplied></head>
                <pb n="f [1]*"/>
                
                <ab>
-                  S<hi rend="italic">i</hi>r I haue so dealt w<hi rend="italic">i</hi>t<hi rend="italic">h</hi> some of the Benchers off the mydle Temple as I haue brought that the house wylbe wylling to Beare CC m<hi rend="italic">a</hi>rk<hi rend="italic">es</hi> towardes the Charg off what ys wysshed to be donne to her ma<hi rend="italic">ies</hi>t<hi rend="italic">ies</hi> good lykyng/ and if the yong gentylmen wylbe drawen in to p<hi rend="italic">er</hi>forme what ys off their p<hi rend="italic">a</hi>rt<hi rend="italic">es</hi> I hope yt wylbe effected/ some off the yong men haue their humors But I hope that wylbe overruled for I send for them, assone as other Busyness of her ma<hi rend="italic">ies</hi>t<hi rend="italic">ie</hi> ys dyspatched.<lb/>
-                  But the au<hi rend="italic">n</hi>cyent<hi rend="italic">es</hi> of the house who wysshe all to be donne to her ma<hi rend="italic">ies</hi>t<hi rend="italic">ies</hi> Best Content do depend vpon your good favor yf any thyng throughe yong mens error shold [haue] not haue that Carryege in the Corse off yt as they wold wysshe yt myght not ^⎡yet⎤ be Imputed vnto them...
-                  
-                  
+                  L<hi rend="italic">ucius</hi> Æ<hi rend="italic">lius</hi> P<hi rend="italic">ulcher</hi> Prince d’amours<lb/>
+                  To the Right honorable and worthy Lord the Earle of Shrewsberrye our louing Cossen and trustye counseller health and happy greetinge/ It is the dutye of a good Prince to be carefull[ye] allwayes of the publique good for w<hi rend="italic">hi</hi>ch he is so elected and to shew himselfe thankfull to those by whome this publique is soe aduanced w<hi rend="italic">hi</hi>ch moues vs to giue your L<hi rend="italic">ordshi</hi>p especiall thankes by whose honorable and Bountyfull contribution our publique treasurye hath bene soe much enritched, for w<hi rend="italic">hi</hi>ch we giue your L<hi rend="italic">ordshi</hi>p the testimonye of a most loiall Subiect to loue with whome yow shalbe assured to be all wayes fauored and soe we byd you heartyly farewell from our roiall Pallace the xxvth December.
                </ab>
             </div>
          </div>
