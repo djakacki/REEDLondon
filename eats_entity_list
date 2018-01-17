@@ -1,0 +1,150 @@
+_Locations_
+Countries
+* Place_Country (#541)
+Counties
+* Place_County (#543)
+Settlements
+* Place_BoroughParish (#539)
+* Place_EcclesiasticalArea (#545)
+* Place_Household (#547)
+* Place_ReligiousHouse (#551)
+Features
+* Place_Feature (#21368)
+
+_Calendar Days_
+Secular
+* CalenderDay_Secular (#4855)
+Liturgical
+* CalendarDay_Liturgical (#4857)
+
+_People_
+Named
+* Person_Clergy (#523)
+* Person_Family (#23416)
+* Person_Commoner (#525)
+* Person_GenderUnknown (#527)
+* Person_Gentry (#529)
+* Person_Male (#531)
+* Person_Nobility (#533)
+* Person_Royalty (#535)
+* Person_Female (#537)
+
+_Collectives_
+Guilds
+* Collective_Guild (#517)
+* Collective_Troupe  (12619)
+Occupations
+* Collective_Occupation (#519)
+Clergy & Churchwardens 
+* Collective_ClergyAndChurchwardens (#9104)
+
+*Collective_Title (#555)
+* Collective_Office (#25968)
+** (pages with this type are not currently to be displayed as part of faceted search. But they can by reached through searching relationships etc. Used as type for pages like "Earl of Derby.â€ )
+
+_Entertainers_
+Type
+* Entertainer_Type (#521)
+* Entertainer_Dancer (18326)
+
+ _Entertainments_
+Entertainment Type
+* Entertainment_Type (#21440)
+Seasonal Customs
+* Entertainment_SeasonalCustom (#4941)
+Animal Sports
+* Entertainment_AnimalSport (#4867)
+
+_Drama_
+Drama Type
+* Drama_Type (#21223)
+Dramatic Work
+* Drama_Work (21225) this is for titled works, e.g. _Hamlet_
+Dramatic Characters
+* Drama_Character (#21227)
+
+_Material Objects_
+Musical Instruments
+* Thing_MusicalInstrument (#553)
+Books
+* Thing_BookPlayMusic (4951)
+Properties & Machinery
+* Thing_PropertyMachinery (#4953)
+Sets
+* Thing_Set
+Pageant Wagons
+* Thing_PageantWagon (4955)
+Cloth  & Fabric
+* Thing_ClothFabric (#4959)
+Theatrical Costumes
+* Thing_TheatricalCostume (#4961)
+Regalia
+* Thing_Regalia (#4963)
+Food & Drink
+* Thing_FoodDrink (#4965)
+
+_Crimes & Misdemeanors_
+* CrimesMisdemeanors (#21297)
+** no subheads under this one, just gets populated with entity pages with type CrimesMisdemeanors)
+
+Questions:
+* What are the codes under #572 - English?  Language Type: Indo-European (572)
+We've changed "English" to "Indo-European". I don't know why it's not revised in the <eatsml.xml> file.  Diane, I don't know which info you are working from or part of the file you are looking at so don't know what you mean by the codes "under" #572.
+
+ _Name Parts_
+* Family #560
+* GenName #562
+* Given #564
+* Prefix #566
+* RoleName #18473
+* Suffix #568
+* Title #570
+
+_Name Types_
+* Alias #582
+* Disambiguation #36556  Disambiguation: This name type is used only for working with the  EATS Oxygen plugin and is a (hopefully) temporary fix.  I don't think it's useful if you are not using the EATS Oxygen plugin.
+* Plural #18609
+* Primary #584
+* Singular #18607
+* Variant #586  Variant: We are thinking of deleting (VOIDing) this name type since we are not tracking variant spelling on REED Online. I've not deleted it yet because early on I used it and I have to find places where it's been used and revise the entity pages before I can VOID the name type. Just haven't got around to it yet.
+
+_Scripts_
+* Latin #588
+
+_Dates_
+* Calendar: Julian (#481)
+* Flourished (#494)
+* Lifespan (#486)
+* Circa (#489)
+* Exact (#491)
+
+_Relationship Types_
+* Has occupation (#21008)
+* Is occupation of (reverse)
+* Holds (#45876)
+* Is held by (reverse)
+* Has occupation (#21008)
+* Is occupation of (reverse)
+* Holds (#45876)   Hold/is held by: I think this was another early creation which has been superseded by "Holds office/Office is held by" and "Holds title/Title is held by". We've left it in the list for now but may VOID it later.
+* Is held by (reverse)
+* Holds office (#34962)
+* Office is held by (reverse)
+* Holds title (#494)
+* Title is held by (reverse)
+* Is a member of (#514)
+* Has member (reverse)
+* Is a specific instance of (#19187)
+* Is the general instance for (reverse)
+* Is contained within (#502)
+* Contains (reverse)
+* Is parent of (#505)
+* Is child of (reverse)
+* Is patron of (#12724)
+* Is patronised by (reverse)
+* Is sibling of (#508)
+* Is sibling of (reverse)
+* Is spouse of (#511)
+* Is spouse of (reverse)
+* May be same entity as (#34835) Maybe be same entity as: This relationship is up for DAC discussion. It was originally created for cases where editors say things like "Smith [in the record] may be John Smith, who..." but having it is iffy and some of us are leaning towards deleting this option. Anyway, I'd advise not using it for now? 
+* May be same entity as (reverse)
+There is a relationship <is a/includes> (#22042) which exists right now but again was created earlier and was found too generic and haven't been used. I've not VOIDed it yet.  Likewise, currently, there's a relationship type <overlaps/overlaps> #23342 for geographic boundaries which is not used. It was originally intended for cases where area X overlaps (but is not fully contained within area Y). To date, we've decided to limit geographic relationships to the <contains/is contained within> relationship and go to the next smallest geographic area which fully contains area X rather than deal with overlaps. Easier to explain in real time if you wish.

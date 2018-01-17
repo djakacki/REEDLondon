@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<!-- REMINDER: associate this document with the REED.rng schema - remains commented out and using TEI-All until then -->
-
-<!--     
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="staff" xml:lang="eng"> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
             
             <title type="main">Inns of Court</title>
 
-            <!-- RESOLVE: Who are the funding agencies for the original printed version of Inns of Court? Should Jackman, NEH, and/or SSHRC be cited? -->   
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
             
-            <!-- RESOLVE: should CANARIE be cited here as a funder? Please confirm with Susan Brown
-            <funder><orgName>CANARIE</orgName></funder> -->
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder> 
             
             <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
@@ -28,7 +20,6 @@
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
                Canada</orgName></funder>
             
-            <!-- RESOLVE: how do we refer to Alan Nelson and John Elliott as editors of the print edition? -->
 		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
 		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
             
@@ -222,9 +213,26 @@
          <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on Staffordshire</change>
       </revisionDesc>
    </teiHeader>
-  <text>
-      <body>
-         <p>Some text here.</p>
+   
+   <text ana="taxon:letter" type="private" n="1601-2">
+      <body xml:lang="eng">
+         <head>
+            <date notBefore="1601" notAfter="1602">8 February</date>
+            <seg ana="docu:RLPC006">RLPC006</seg></head>
+         <div type="transcription">
+            <div>
+               <head><supplied>Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</supplied></head>
+               <pb n="f [1]*"/>
+               
+               <ab>
+                  S<hi rend="italic">i</hi>r I haue so dealt w<hi rend="italic">i</hi>t<hi rend="italic">h</hi> some of the Benchers off the mydle Temple as I haue brought that the house wylbe wylling to Beare CC m<hi rend="italic">a</hi>rk<hi rend="italic">es</hi> towardes the Charg off what ys wysshed to be donne to her ma<hi rend="italic">ies</hi>t<hi rend="italic">ies</hi> good lykyng/ and if the yong gentylmen wylbe drawen in to p<hi rend="italic">er</hi>forme what ys off their p<hi rend="italic">a</hi>rt<hi rend="italic">es</hi> I hope yt wylbe effected/ some off the yong men haue their humors But I hope that wylbe overruled for I send for them, assone as other Busyness of her ma<hi rend="italic">ies</hi>t<hi rend="italic">ie</hi> ys dyspatched.<lb/>
+                  But the au<hi rend="italic">n</hi>cyent<hi rend="italic">es</hi> of the house who wysshe all to be donne to her ma<hi rend="italic">ies</hi>t<hi rend="italic">ies</hi> Best Content do depend vpon your good favor yf any thyng throughe yong mens error shold [haue] not haue that Carryege in the Corse off yt as they wold wysshe yt myght not ^⎡yet⎤ be Imputed vnto them...
+                  
+                  
+               </ab>
+            </div>
+         </div>
       </body>
-  </text>
+   </text>
+  
 </TEI>
