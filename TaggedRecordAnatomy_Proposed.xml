@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text ana="taxon:INN" type="record" subtype="category">
+      <!--using @ana to call taxonomy file with name of Inn, @type (always as record) - PROPOSING USE @subtype to distinguish among record types (e.g., letter, diary, playtext, etc.) -->
+      
+      <body xml:lang="en">
+      <!-- adding xml:lang, which should be the language in which the record is written (en, lat, fr) -->
+         
+         <head>
+            <!-- using head tag here because I think this is how it was used for Staffordshire? -->
+            
+            <date when-iso="1234" cert="medium">1234</date>
+            <!-- date can be qualified as from/to if range or when if single date;  PROPOSE USING @cert, but would need to justify when and to what degree (e.g., with date?, dates that fall between Julian and Gregorian years, etc.) -->
+            
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 124">RLGIAB</seg></head>
+         <!-- using seg element to indicate chunked record, @ana for document ID and @corresp for print volume ID/location (with document ID and volume ID stored in document.xml file -->
+                    
+            <div type="main">
+               <!-- currently div @type is transcription, translation, endnote, appendix, other PROPOSE USING @type to distinguish "main" (body of transcribed/printed record) and then nesting "margin" div within as needed  -->
+               <head>[folio/page location] <supplied>[info from IoC</supplied></head>
+               <!-- using this nested head element for folio/page location, and then supplied element for text printed in print volume preceding record "body" -->
+                              
+               <ab>a block of text</ab>
+               
+               <ab>another block of text <lb/>
+                  with a clear line break within the block</ab>
+<!-- blocks of text should by default be tagged ab, unless ... -->
+               
+               <table>
+                  <row>
+                     <cell></cell>
+                  </row>
+               </table>
+               <!-- a table is broken down by rows, with one cell in each row (e.g., payment type and amount) unless capturing text that requires discreet columns or other structure  -->
+
+            <div type="margin">
+               <ab>some text in margin captured in transcription/print</ab>
+            </div>
+
+               <gap reason="omitted"/>               
+               <!-- there will be so many gaps! -->
+               
+            </div>
+      </body>
+   </text>
+   <!-- end of individual record -->
+   
+</TEI>

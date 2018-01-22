@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title type="main">Inns of Court</title>
+
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
+                  America</orgName></funder>
+            <funder><orgName>CANARIE</orgName></funder>
+
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
+            <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName></funder>
+            <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
+                  Canada</orgName></funder>
+
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="CK">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <!-- confirm -->
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!-- RESOLVE: who is the Paleographer, Translator, Latin and Anglo-French Glossarian for Inns of Court (both print and electronic)? -->
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Associate Editor</resp>
+               <!-- confirm -->
+               <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp>
+               <!-- confirm -->
+            </respStmt>
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Kimberly Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority><orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+            <!-- RESOLVE: Include Boydell & Brewer publication information? -->
+            <authority>
+               <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell
+                  &amp; Brewer Ltd.</orgName>
+               <address>
+                  <addrLine>PO Box 9, Woodbridge</addrLine>
+                  <addrLine>Suffolk IP12 3DF, UK</addrLine>
+                  <addrLine>668 Mt. Hope Avenue</addrLine>
+                  <addrLine>Rochester, NY 14620</addrLine>
+               </address>
+            </authority>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <!-- RESOLVE: how do we refer to this section for IoC? -->
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                     <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                     <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="fra">Anglo-French</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Add new major milestone changes to top -->
+         <change when="2018-01-20" who="#JAKA1">Created file</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <!-- each text element represents a single record within a record set -->
+   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
+      <body xml:lang="lat">
+         <head>
+            <date when="1594-02-02" cert="medium">2 February 1594</date>
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 124">RLGIAB</seg>
+         </head>
+         <div type="main">
+            <head type="page" n="295*">p 295* <supplied>(2 February)</supplied>
+            </head>
+
+            <ab>Edward Deuoraxe de Castell Bromwiche in Comitate warwici admiss<hi rend="italic"
+                  >us</hi> est in societat<hi rend="italic">em</hi> hui<hi rend="italic">us</hi>
+               hospitij nostri ij die ffeb<hi rend="italic">ruarij</hi> anno supradict<hi
+                  rend="italic">o</hi><lb/>
+               <hi rend="italic">(signed)</hi> H<hi rend="italic">enricus</hi> Princeps. </ab>
+
+            <ab>ffrancisc<hi rend="italic">us</hi> Dethicke de [admiss]<note>de created from d <hi
+                     rend="italic">of cancelled admiss with e written over</hi> m</note> Newhall in
+               Comitate Darbye admiss<hi rend="italic">us</hi> est in societate<hi rend="italic"
+                  >m</hi> hui<hi rend="italic">us</hi> hospitij eode<hi rend="italic">m</hi> die<lb/>
+               <hi rend="italic">(signed)</hi> H<hi rend="italic">enricus</hi> Pr<hi rend="italic"
+                  >inceps</hi>.</ab>
+            <ab>Guillelm<hi rend="italic">us</hi> Poape de Roxton in Comitate Oxoniæ admiss<hi
+                  rend="italic">u</hi>s est in societatem huius hospitij eodem die </ab>
+
+            <note type="marginal"> [Extra hospicium] </note>
+
+            <ab>[ffrancisc<hi rend="italic">us</hi> East de <hi rend="italic">(blank)</hi> in
+               Comitate Cantabrigiæ admissus est in societatem hospitij nostri eodem die] <lb/>
+               extra hospitium [pro] in plena pencione tentus decimo octavo die Iunij Anno 38
+               Elizabeth Regine: <lb/>
+               <hi rend="italic">(signed)</hi> Henric<hi rend="italic">us</hi> Pr<hi rend="italic"
+                  >inceps</hi> Purpoole. </ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
+      <body xml:lang="lat">
+         <head>
+            <date when="1594-12-25" cert="high">25 December 1594</date>
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
+         </head>
+         <div type="main">
+            <head>p 295* <supplied>(25 December)</supplied>
+            </head>
+
+            <ab>Ihoannes Cooke &amp; Edwardus Cooke de Westminster admissi sunt in societatem hui<hi
+                  rend="italic">us</hi> hospitij xxv die Decembris anno Elizabeth Regine xxx vij<lb/>
+               <hi rend="italic">(signed)</hi> Henry Pr<hi rend="italic">inceps</hi> Purpoole </ab>
+
+            <ab>Phillippus Waintworth de Cotton in Comitate Suffolciæ Anthonius ffletcher de
+               Cockermouth in Comitate Comber<hi rend="italic">landia</hi>e Thomas Thomkins de
+               Civitate Londini Ihoannes Lillie de Civitate Londini Thomas Smith de fram<hi
+                  rend="italic">m</hi>ingha<hi rend="italic">m</hi> in Comitate Suffolk admissi sunt
+               in societatem huius hospitij die &amp; anno supradictis<lb/>
+               <hi rend="italic">(signed)</hi> Henry Pr<hi rend="italic">inceps</hi> Purpoole </ab>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
+      <body xml:lang="lat">
+         <head>
+            <date when="1595-01-06" cert="high">1595</date>
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
+         </head>
+         <div type="main">
+            <head>p 298* <supplied>(6 January)</supplied>
+            </head>
+
+            <ab>Iohan<hi rend="italic">nes</hi> Spencer Maior ciuitatis London<hi rend="italic"
+                  >i</hi> admissus est in societatem huius Hospitij sexto die Ianuarij. Anno d<hi
+                  rend="italic">o</hi>m<hi rend="italic">inae</hi> Reginae Eliz<hi rend="italic"
+                  >abethae</hi> 37º<lb/>
+               <hi rend="italic">(signed)</hi> Henrie Helmes Pr<hi rend="italic">inceps</hi>
+               Purpool</ab>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
+      <body xml:lang="lat">
+         <head>
+            <date from-iso="1617" to-iso="1618">1617-18</date>
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 200">RLGIAB</seg>
+         </head>
+         <div type="main">
+            <head>pp 739-40* </head>
+
+            <list>
+               <item>
+                  [Henricus Pr<hi rend="italic">inceps</hi> abs<hi rend="italic">que</hi> fine
+                     dur<hi rend="italic">an</hi>ti festo]† 
+               </item>
+               <item>
+                  [Admissus est Thomas Wright Londinensis armiger 26: Decemb<hi rend="italic"
+                     >ris</hi> per Hen<hi rend="italic">ricum</hi> 2 Pr<hi rend="italic"
+                     >incipem</hi> 1617:] 
+               </item>
+               <note type="marginal"> Consimiliter: 
+               </note>
+               <item>
+                  Admissus Edw<hi rend="italic">ardus</hi> Aschan Armiger de Cottom in Comitatu
+                     Lincoln<hi rend="italic">iae</hi>
+               </item>
+               <item>
+                  26: Decemb<hi rend="italic">ris</hi> p<hi rend="italic">er</hi> Hen<hi
+                     rend="italic">ricum</hi>
+               </item>
+               <item>
+                  2 Pr<hi rend="italic">incipem</hi> 1617
+               </item>
+               <item>
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+                     abs<hi rend="italic">que</hi> fine†
+               </item>
+               <item>
+                  Admissus est Sam<hi rend="italic">uel</hi> Tryon de London miles 29: Decemb<hi
+                     rend="italic">ris</hi> p<hi rend="italic">er</hi> Hen<hi rend="italic"
+                     >ricum</hi>
+               </item>
+               <item>
+                  2 Pr<hi rend="italic">incipem</hi> 1617:
+               </item>
+               <note type="marginal"> 
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+               </note>
+               <item>
+                  Admissus est Huntington Corney Hastings de Pickering<note type="editorial"
+                     >Huntingdon Hastings Corney, son of John Corney</note> in com<hi rend="italic"
+                     >itatu</hi> Eboru<hi rend="italic">m</hi>
+               </item>
+               <item>
+                  Armiger 29 Decemb<hi rend="italic">ris</hi> p<hi rend="italic">er</hi> Hen<hi
+                     rend="italic">ricum</hi> 2 Prin<hi rend="italic">cipem</hi> 1617:
+               </item>
+               <note type="marginal"> 
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+               </note>
+               <item>
+                  Admissus est Tho<hi rend="italic">mas</hi> Lee de London Armiger 30: Decemb<hi
+                     rend="italic">ris</hi> per Hen<hi rend="italic">ricum</hi>
+               </item>
+               <item>
+                  2 Prin<hi rend="italic">cipem</hi> 1617:
+               </item>
+               <note type="marginal"> 
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+               </note>
+               <item>
+                  Admissus est Tho<hi rend="italic">mas</hi> Woode ^⎡miles⎤ de cam<hi
+                     rend="italic">era</hi> regali gen<hi rend="italic">erosus</hi> [miles]
+               </item>
+               <item>
+                  30: Decemb<hi rend="italic">ris</hi> p<hi rend="italic">er</hi> Hen<hi
+                     rend="italic">ricum</hi> 2 Principem 1617:
+               </item>
+               <item>
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+                     absq<hi rend="italic">ue</hi> fine†
+               </item>
+               <item>
+                  Admissus est Edward [Philmere] ffilmere armiger de Est Sutton in Com<hi
+                     rend="italic">itatu</hi>
+               </item>
+               <item>
+                  Cant<hi rend="italic">uariae</hi> 3: Ian<hi rend="italic">uarij</hi> p<hi
+                     rend="italic">er</hi> Hen<hi rend="italic">ricum</hi> 2 Prin<hi rend="italic"
+                     >cipem</hi> 1617:
+               </item>
+               <item>
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+                     abs<hi rend="italic">que</hi> fine†
+               </item>
+               <item>
+                  Admissus est Iaruis Eluishe de ^⎡London in com<hi rend="italic">itatu</hi>
+                  Medilsex armiger:
+               </item>
+               <item>
+                  4: Ian<hi rend="italic">uarij</hi> p<hi rend="italic">er</hi> Hen<hi
+                     rend="italic">ricum</hi> 2 Pr<hi rend="italic">incipem</hi> 1617:
+               </item>
+               <note type="marginal"> 
+                  Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
+               </note>
+               <item>
+                  Admissus est Ihohannes Smith miles de Leids in comitatu Cantuariae 4: Ianuarij
+                  per Henricum 2 Principem 1617: 
+                  
+                  [Henricus Princeps Purpoolae absque fine] 
+                  
+                  Tobyas Wright fillius et heres Richardi Wright de Lewknor in Comitatu 
+                  
+                  Oxoniae Armiger admissus est in Societatem huius hospicij quinto die Ianuarij 
+                  
+                  Anno Primo Henrici secundi primo 1617 
+                  
+                  [Henricus Princeps Purpoolae absque fine] 
+                  
+                  Edvardus Yelverton Armiger de London Admissus est in societatem huius 
+                  
+                  hospitii die et Anno predictis | 
+                  
+                  [°2o Februarij 1617.°]<!-- how should the degree symbols be used here? --> 
+                  
+                  °Esme Steward Dominus Aubigeney admissus est in hanc Societatem Die &amp; 
+                  
+                  Anno supradictis./ 
+                  
+                  Arthurus Ingram miles Secretarius coram Presidente &amp; Concilio
+                  Domini Regis 
+                  
+                  in partibus Borealis admissus est in hanc societatem die &amp; anno
+                  supradictis./ 
+                  
+                  Iohannes Butler miles de Woodhall in comitatu Hartfordiæ admissus
+                  est in 
+                  
+                  hanc societatem die &amp; anno supradictis Gulielmus Button miles de London
+                  admissus est vt supra 
+                  
+                  [°Henricus Princep s Purpoolae 2us°] 
+                  
+                  Dudley Diggs miles de
+                  Chilham in Comitatu Canciae: admissus est vt supra 
+                  
+                  Iohannes Packington Armiger
+                  filius &amp; heres Iohannis Packington Militis 
+                  
+                  admissus est vt supra 
+                  
+                  Richardus
+                  Ihonson filius &amp; heres Richardi Iohnson admissus est in hanc 
+                  
+                  Societatem vt
+                  supra 
+                  
+                  Thomas Talbot de Risly in Comitatu Bedfordiae admissus vt supra°              
+               </item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
+
+
+</TEI>
