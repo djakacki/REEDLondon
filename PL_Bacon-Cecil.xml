@@ -218,11 +218,12 @@
    <text ana="taxon:letter" type="private" n="1595-6">
       <body xml:lang="eng">
          <head>
-            <date notBefore="1595" notAfter="1596">1595-6</date>
+            <date notBefore="1595" notAfter="1596">1595-6</date><!-- This is a circa date in print vol, ie, c 1595-6, which I think your coding is taking account of here. With circas, however, you may get into trouble using the definitive notBefore and notAfter, as we are sometimes guessing at year and real year could be before or after. In staffs we used a precision value of low and coded as follows: <date precision="low" when-iso="1550"><hi rend="italic">c</hi> 1550</date>. #CB 2018-01-22 -->
             <seg ana="docu:RLPC003">RLPC003</seg></head>
          <div type="transcription">
             <div>
-               <head><supplied>Letter of Francis Bacon to William Cecil, Lord Burghley</supplied></head>
+               <head><supplied>Letter of Francis Bacon to William Cecil, Lord Burghley</supplied></head><!-- prob just type-o, but you are missing the folio/sheet/membrane line here. Would have coded as <head>single sheet</head><pb n="1" type="sheet"/> #CB 2018-10-22 -->
+<!-- note you are including <supplied> in above <head> as the full records heading, rather than any sub-editorial heading, like (Receipts) etc. We had moved all our full records headings into taxonomy file, but this may be temporary measure from you for workflow? #CB 2018-01-22 -->
                <pb/>
                
                <ab>Yt may please your good L<hi rend="italic">ordship</hi> I am sory the joynt maske from the fowr Innes of Cowrt faileth. Whearin I conceyue thear is no other grownd of that euent, but impossibility.</ab>
