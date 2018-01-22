@@ -42,7 +42,7 @@
             </respStmt>
             
             <respStmt>
-               <persName xml:id="CK">Kathy Chung</persName>
+               <persName xml:id="CK">Kathy Chung</persName>  <!-- #KC_2018-01-22: My initials are "KC"  -->
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
@@ -187,7 +187,8 @@
             </prefixDef>
          </listPrefixDef>
          
-         <projectDesc>
+         <projectDesc>  <!-- #KC_2018-01-22: Would it be appropriate to have (additional) info here which reflects 
+the REED Londnon project? -->
             <p>Records of Early English Drama (REED) is an international scholarly project that is
                establishing for the first time the context from which the drama of Shakespeare and his
                contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
@@ -229,6 +230,11 @@
                   <ab>Neuerthelesse bycause it falleth owt that at this tyme Graies Inne is well furnyshed, of galant yowng gentlemen, yo<hi rend="italic">u</hi>r l<hi rend="italic">ordshi</hi>p may be pleased to know, that rather then this occasion shall passe withowt some demonstration of affection from the Innes of Cowrt, Thear are a dozen gentlemen of Graies Inne/ that owt of the honor which they bear to y<hi rend="italic">ou</hi>r l<hi rend="italic">ordship</hi>, and my l<hi rend="italic">ord</hi> Chamberlayne to whome at theyr last maske they were so much bownden, will be ready to furnysh a maske wyshing it were in their powers to performe it according to theyr mynd<hi rend="italic">es</hi>. And so for the p<hi rend="italic">re</hi>sent I humbly take my leaue resting</ab>
                   <closer><salute>Y<hi rend="italic">ou</hi>r l<hi rend="italic">ordshi</hi>ps very humbly And much bownden</salute>
                   Fr<hi rend="italic">ancis</hi> Bacon</closer>
+		    
+	<!-- #KC_2018-01-22: Just a question of consistency: if you are going to have a "closer" tag and a "salute" tag (which I 
+        assume means salutation), would it make sense to have a tag for the signature (the "Francis Bacon" 
+	part of the closer)? --> 
+		    
                   <note>Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.</note>
 
             </div>
