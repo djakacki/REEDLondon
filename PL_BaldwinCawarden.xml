@@ -228,7 +228,10 @@
                <head><supplied>Letter of William Baldwin to Sir Thomas Cawarden</supplied></head>
                <pb n="f [1]*"/>
                
-               <ab>love and lyve<lb/>
+               <ab>love and lyve<lb/><!-- #KC_2018-01-22: This is a question about the XML and CWRC display. The XML
+tag here is <lb> line break. The CWRC display shows a line break *and* has inserted a line space. There is no 
+line space in the published record. Do you want to check the CWRC display? Also, the sentence "love and lyve" is
+centered in the published record. -->
                   You shall vnderstande syr that I have made a Co<hi rend="italic">m</hi>modie concernyng the way to lyfe, mete as it is supposed to be played ^⎡before⎤ the Quene, and there be of the Innes of court that desyer to have the setting furth therof, but because your m<hi rend="italic">aste</hi>rship now thre yeres passed offered in a sort to set furth su<hi rend="italic">m</hi> of my rude devises, I thought it good to know your mynde herein, before I gave answer to any other/ The settyng furth wil be chargeable because the matter is stately, co<hi rend="italic">m</hi>prehending a discourse of the hole worlde/ There be in it of svndry personages .lxij. and the play is iij. houres long, it is now in learnyng and well be ready within these .x. dayes/ The matter is this, I bring in a yong man whome I name Lamuel who hath a servant called Lob, these two will attempt the worlde to seke theyr fortune, they mete with Lust lucke and love, Lust promiseth them lecherie, Lucke lordship, Love Lyfe, they folow lvst and through lechery be lost, than through Lucke they recover, Lucke bringeth them to lordship from which through Larges and larracine they cu<hi rend="italic">m</hi> to Lacke/ Than through Love, the go to Light &amp; therby attayne Lyfe/ All the players names beginne with L. And be such as ensue</ab><note>In his letter to Sir Thomas Cawarden c 1555–6 (?), Baldwin claims to ‘have made a Co<hi rend="italic">m</hi>modie concernyng the way to lyfe’ appropriate for performance before the queen (Mary); moreover, ‘there be of the Innes of court that desyer to have the setting furth therof.’</note>
                
             </div>
