@@ -3,46 +3,48 @@
 <?xml-model href="REED.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="tei/records/" xml:id="london" xml:lang="eng">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            
+
             <title type="main">Inns of Court</title>
 
-            
-            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName></funder>            
+
+            <funder><orgName>Andrew W. Mellon Foundation, New York, United States of
+                  America</orgName></funder>
             <funder><orgName>CANARIE</orgName></funder>
-            
-            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>            
+
+            <funder><orgName>Jackman Foundation, Toronto, Canada</orgName></funder>
             <funder><orgName>National Endowment for the Humanities, Washington, DC, United States of
-               America</orgName></funder>
+                  America</orgName></funder>
             <funder><orgName>Social Sciences and Humanities Research Council, Ottawa,
-               Canada</orgName></funder>
-            
+                  Canada</orgName></funder>
+
             <!-- RESOLVE: how do we refer to Alan Nelson and John Elliott as editors of the print edition? -->
-		 <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
-		 <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
-            
+            <editor resp="print"><persName xml:id="AHN1">Alan H. Nelson</persName></editor>
+            <editor resp="print"><persName>John R. Elliott, Jr.</persName></editor>
+
             <respStmt>
                <persName xml:id="CB">Carolyn Black</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Project Manager</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>John Bradley</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
-               <persName>Susan Brown</persName> 
+               <persName>Susan Brown</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
-               <persName xml:id="CK">Kathy Chung</persName>  <!-- #KC_2018-01-22: My initials are "KC"  -->
+               <persName xml:id="CK">Kathy Chung</persName>
+               <!-- #KC_2018-01-22: My initials are "KC"  -->
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
@@ -53,86 +55,92 @@
                <resp>NHPRC-Mellon Project Team Member</resp>
                <resp>TEI Schema Designer, Technical Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Matthew Davies</persName>
-               <orgName>University of London, Birkbeck College</orgName> <!-- confirm -->
+               <orgName>University of London, Birkbeck College</orgName>
+               <!-- confirm -->
                <resp>Records of Early English Drama (REED) Executive Board</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <!-- RESOLVE: who is the Paleographer, Translator, Latin and Anglo-French Glossarian for Inns of Court (both print and electronic)? -->
             <respStmt>
                <persName xml:id="PG">Patrick Gregory</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Associate Editor</resp> <!-- confirm -->
-               <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp> <!-- confirm -->
+               <resp>Associate Editor</resp>
+               <!-- confirm -->
+               <resp>Paleographer, Translator, Latin and Anglo-French Glossarian</resp>
+               <!-- confirm -->
             </respStmt>
             <respStmt>
                <persName>Tanya Hagen</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JAKA1">Diane K. Jakacki</persName>
                <orgName>Bucknell University</orgName>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
-               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives Planning Grant</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Alexandra F. Johnston</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>REED Founder and Senior Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>David Kathman</persName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Sally-Beth MacLean</persName>
                <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Principal Investigator, SSHRC grant; Director of Research and General Editor</resp>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Kimberly Martin</persName>
                <orgName>University of Guelph</orgName>
                <resp>NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Christopher Matusiak</persName>
                <orgName>Ithaca College</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName xml:id="JN">Jamie Norrish</persName>
                <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Dorothy Porter</persName>
                <orgName>University of Pennsylvania</orgName>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
-            
+
             <respStmt>
                <persName>Suzanne Westfall</persName>
                <orgName>Lafayette College</orgName>
                <resp>Records of Early English Drama (REED) Executive Board Member</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
-            </respStmt>                        
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition, anticipated publication <date when-iso="2018">2018</date></edition>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
          </editionStmt>
-         
+
          <publicationStmt>
             <authority><orgName>Records of Early English Drama (REED)</orgName>
                <address>
@@ -144,7 +152,8 @@
             </authority>
             <!-- RESOLVE: Include Boydell & Brewer publication information? -->
             <authority>
-               <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp; Brewer Ltd.</orgName>
+               <orgName>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell
+                  &amp; Brewer Ltd.</orgName>
                <address>
                   <addrLine>PO Box 9, Woodbridge</addrLine>
                   <addrLine>Suffolk IP12 3DF, UK</addrLine>
@@ -152,55 +161,59 @@
                   <addrLine>Rochester, NY 14620</addrLine>
                </address>
             </authority>
-            
+
             <availability>
                <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
-                  <date>2017</date></p>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a
-                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
-                  4.0) licence.</licence>
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
             </availability>
          </publicationStmt>
-         
+
          <seriesStmt>
             <title>Records of Early English Drama</title>
          </seriesStmt>
          <sourceDesc>
-            <p>This publication constitutes a remediation of the printed Inns of Court collection. Information on original sources for transcriptions can be accessed via the Document Descriptions.</p>
-            <p>For a full list of REED collections, editors, executive board members, and staff, please visit http://reed.utoronto.ca/people</p>       
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
-         <listPrefixDef> <!-- RESOLVE: how do we refer to this section for IoC? -->
+         <listPrefixDef>
+            <!-- RESOLVE: how do we refer to this section for IoC? -->
             <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
                replacementPattern="../taxonomy.xml#$1">
                <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
                   taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
-                  <code>taxonomy.xml#church</code>.</p>
+                     <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
             <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
                replacementPattern="../glossary.xml#$1">
                <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
-                  <code>glossary.xml#histrio-1</code>.</p>
+                     <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
             <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
-               replacementPattern="../documents.xml#$1">
-            </prefixDef>
+               replacementPattern="../documents.xml#$1"> </prefixDef>
          </listPrefixDef>
-         
-         <projectDesc>  <!-- #KC_2018-01-22: Would it be appropriate to have (additional) info here which reflects 
+
+         <projectDesc>
+            <!-- #KC_2018-01-22: Would it be appropriate to have (additional) info here which reflects 
 the REED Londnon project? -->
             <p>Records of Early English Drama (REED) is an international scholarly project that is
-               establishing for the first time the context from which the drama of Shakespeare and his
-               contemporaries grew. Founded in 1976, REED has worked since then to locate, transcribe,
-               and edit historical documents containing evidence of drama, secular music, and other
-               communal entertainment and ceremony from the Middle Ages until 1642, when the Puritans
-               closed the London theatres.</p>
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
          </projectDesc>
       </encodingDesc>
-      
+
       <profileDesc>
          <langUsage>
             <language ident="eng">English</language>
@@ -209,40 +222,56 @@ the REED Londnon project? -->
          </langUsage>
          <settingDesc>
             <place>
-               <placeName>London</placeName> 
+               <placeName>London</placeName>
             </place>
          </settingDesc>
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on Staffordshire</change>
+         <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on
+            Staffordshire</change>
       </revisionDesc>
    </teiHeader>
-   
+
    <text ana="taxon:letter" type="private" n="1595-6">
       <body xml:lang="eng">
          <head>
-            <date notBefore="1595" notAfter="1596">1595-6</date>
+            <date from-iso="1595" to-iso="1596" cert="high">1595-6</date>
             <seg ana="docu:RLPC003">RLPC003</seg></head>
          <div type="transcription">
             <div>
-               <head><supplied>Letter of Francis Bacon to William Cecil, Lord Burghley</supplied></head>
+               <head><supplied>Letter of Francis Bacon to William Cecil, Lord
+                  Burghley</supplied></head>
                <pb/>
-               
-               <ab>Yt may please your good L<hi rend="italic">ordship</hi> I am sory the joynt maske from the fowr Innes of Cowrt faileth. Whearin I conceyue thear is no other grownd of that euent, but impossibility.</ab>
-                  <ab>Neuerthelesse bycause it falleth owt that at this tyme Graies Inne is well furnyshed, of galant yowng gentlemen, yo<hi rend="italic">u</hi>r l<hi rend="italic">ordshi</hi>p may be pleased to know, that rather then this occasion shall passe withowt some demonstration of affection from the Innes of Cowrt, Thear are a dozen gentlemen of Graies Inne/ that owt of the honor which they bear to y<hi rend="italic">ou</hi>r l<hi rend="italic">ordship</hi>, and my l<hi rend="italic">ord</hi> Chamberlayne to whome at theyr last maske they were so much bownden, will be ready to furnysh a maske wyshing it were in their powers to performe it according to theyr mynd<hi rend="italic">es</hi>. And so for the p<hi rend="italic">re</hi>sent I humbly take my leaue resting</ab>
-                  <closer><salute>Y<hi rend="italic">ou</hi>r l<hi rend="italic">ordshi</hi>ps very humbly And much bownden</salute>
-                  Fr<hi rend="italic">ancis</hi> Bacon</closer>
-		    
-	<!-- #KC_2018-01-22: Just a question of consistency: if you are going to have a "closer" tag and a "salute" tag (which I 
-        assume means salutation), would it make sense to have a tag for the signature (the "Francis Bacon" 
-	part of the closer)? --> 
-		    
-                  <note>Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.</note>
+
+               <ab>Yt may please your good L<hi rend="italic">ordship</hi> I am sory the joynt maske
+                  from the fowr Innes of Cowrt faileth. Whearin I conceyue thear is no other grownd
+                  of that euent, but impossibility.</ab>
+               <ab>Neuerthelesse bycause it falleth owt that at this tyme Graies Inne is well
+                  furnyshed, of galant yowng gentlemen, yo<hi rend="italic">u</hi>r l<hi
+                     rend="italic">ordshi</hi>p may be pleased to know, that rather then this
+                  occasion shall passe withowt some demonstration of affection from the Innes of
+                  Cowrt, Thear are a dozen gentlemen of Graies Inne/ that owt of the honor which
+                  they bear to y<hi rend="italic">ou</hi>r l<hi rend="italic">ordship</hi>, and my
+                     l<hi rend="italic">ord</hi> Chamberlayne to whome at theyr last maske they were
+                  so much bownden, will be ready to furnysh a maske wyshing it were in their powers
+                  to performe it according to theyr mynd<hi rend="italic">es</hi>. And so for the
+                     p<hi rend="italic">re</hi>sent I humbly take my leaue resting</ab>
+               <closer><salute>Y<hi rend="italic">ou</hi>r l<hi rend="italic">ordshi</hi>ps very
+                     humbly And much bownden</salute>
+                  <signed>Fr<hi rend="italic">ancis</hi> Bacon</signed></closer>
+
+               <note>Francis Bacon and William Cecil were members of Gray’s Inn. This letter was
+                  clearly composed before 4 August 1598, the date of Burghley’s death. Since both
+                  the proposed masque and a previous masque are associated with ‘my lord
+                  Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon
+                  (1526–96), rather than his successor, William Brooke (1527–97), who served only a
+                  year before his death. The previous masque may have been part of Gesta
+                  Grayorum.</note>
 
             </div>
          </div>
       </body>
    </text>
-  
+
 </TEI>
