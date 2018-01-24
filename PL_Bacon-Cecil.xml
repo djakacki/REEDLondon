@@ -185,6 +185,9 @@
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                   <code>glossary.xml#histrio-1</code>.</p>
             </prefixDef>
+            <prefixDef ident="docu" matchPattern="([A-Z-z0-9_-]+)"
+               replacementPattern="../documents.xml#$1">
+            </prefixDef>
          </listPrefixDef>
          
          <projectDesc>  <!-- #KC_2018-01-22: Would it be appropriate to have (additional) info here which reflects 
