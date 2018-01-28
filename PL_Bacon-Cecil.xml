@@ -237,11 +237,12 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on
-            Staffordshire</change>
+         <change when="2018-01-28" who="#JAKA1">expanded tagging</change>
+         <change when="2017-10-28" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
 
+<!-- DKJ 2018-01-28: Please review updated record structure to make sure I'm structuring the elements and attributes correctly. Please go ahead and make corrections directly, then comment on what you've done so I can make sure I can apply corrections to other record files -->
    <text ana="taxon:letter" type="record" n="private_correspondence">
       <body xml:lang="eng">
          <head type="single_sheet" n="f 13">
