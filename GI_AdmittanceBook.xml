@@ -185,13 +185,13 @@
          <listPrefixDef>
             <!-- RESOLVE: how do we refer to this section for IoC? -->
             <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../taxonomy.xml#$1">
+               replacementPattern="https://raw.githubusercontent.com/djakacki/REEDLondon/master/taxonomy_test.xml#$1">
                <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
                   taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
                      <code>taxonomy.xml#church</code>.</p>
             </prefixDef>
             <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
-               replacementPattern="../glossary.xml#$1">
+               replacementPattern="https://raw.githubusercontent.com/djakacki/REEDLondon/master/documents.xml#$1">
                <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
                   glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
                      <code>glossary.xml#histrio-1</code>.</p>
@@ -222,44 +222,87 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-01-27" who="#JAKA1">Corrected editorial symbols</change>
          <change when="2018-01-20" who="#JAKA1">Created file</change>
       </revisionDesc>
    </teiHeader>
 
    <!-- each text element represents a single record within a record set -->
-   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
+   <text ana="taxon:grays_inn" type="record">
       <body xml:lang="lat">
-         <head>
-            <date when="1594-02-02" cert="medium">2 February 1594</date>
+         <head type="page" n="295">
+            <note type="editorial">Prominent among those granted honorary admission by Henry Helmes, Prince of Purpoole, were John Lyly, almost certainly the playwright, and John Spencer, lord mayor of London (see ODNB for both men). A pane of stained glass commemorating Spencer’s membership survives in the hall of Gray’s Inn.</note>
+            
+            <!-- DKJ 2018-01-27: Added persName for John Lily, playwright, John Spencer, Mayor of London, and Henry Helmes (ID'ing Henry Helmes as Prince of Purpoole in records for pp.295 and 298 based on Alan Nelson's note, giving them @cert high and @resp #AHN1 -->
+            
+            <date when-iso="1594-02-02" cert="high"><supplied>2 February</supplied></date>
+            <!-- DKJ 2018-01-28: would someone confirm that this should be 1594  -->
             <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 124">RLGIAB</seg>
          </head>
-         <div type="main">
-            <head type="page" n="295*">p 295* <supplied>(2 February)</supplied>
-            </head>
+         <div type="transcription">
+            
+            <list>
+               <item>
+                  <persName ana="Edward Devereux">Edward Deuoraxe</persName> de <placeName ana="Castle Bromwich, Warwickshire">Castell Bromwiche in Comitate warwici</placeName> admiss<expan>us</expan> est in societat<ex>em</ex> hui<ex>us</ex> hospitij nostri <date when-iso="1594-02-02">ij die ffeb<ex>ruarij</ex></date> anno supradict<ex>o</ex>
+               <seg type="signed" rend="center"><ex>(signed)</ex> <persName ana="Henry Helmes" resp="REED" role="Prince of Purpoole">H<ex>enricus</ex> Princeps.</persName></seg>
+               </item>                                         
+               <!-- DKJ 2018-01-28: Using seg @type and @rend. This seems to be in line with Staff procedure. Please confirm!  -->
+               
+               <item><persName ana="Francis Dethicke">ffrancisc<ex>us</ex> Dethicke</persName> de <del type="erasure">admiss</del><note type="editorial">de created from d of cancelled admiss with e written over m</note> <placeName ana="Newhall, Derbyshire">Newhall in Comitate Darbye</placeName> admiss<ex>us</ex> est in societatem hui<ex>us</ex> hospitij eode<ex>m</ex> die
+                  <seg type="signed" rend="center"><ex>(signed)</ex> <persName ana="Henry Helmes" resp="REED" role="Prince of Purpoole">H<ex>enricus</ex> P<ex>rinceps</ex></persName>.</seg></item>
+               
+               <item><persName ana="William Pope">Guillelm<ex>us</ex> Poape</persName> de <placeName ana="Wroxton, Oxfordshire">Roxton in Comitate Oxoniæ</placeName> admiss<ex>us</ex> est in societate<ex>m</ex> hui<ex>us</ex> hospitij eodem die </item>
 
-            <ab>Edward Deuoraxe de Castell Bromwiche in Comitate warwici admiss<hi rend="italic"
-                  >us</hi> est in societat<hi rend="italic">em</hi> hui<hi rend="italic">us</hi>
-               hospitij nostri ij die ffeb<hi rend="italic">ruarij</hi> anno supradict<hi
-                  rend="italic">o</hi><lb/>
-               <hi rend="italic">(signed)</hi> H<hi rend="italic">enricus</hi> Princeps. </ab>
+            <note type="marginal" rend="left">Extra hospiciu<ex>m</ex></note>
 
-            <ab>ffrancisc<hi rend="italic">us</hi> Dethicke de [admiss]<note>de created from d <hi
-                     rend="italic">of cancelled admiss with e written over</hi> m</note> Newhall in
-               Comitate Darbye admiss<hi rend="italic">us</hi> est in societate<hi rend="italic"
-                  >m</hi> hui<hi rend="italic">us</hi> hospitij eode<hi rend="italic">m</hi> die<lb/>
-               <hi rend="italic">(signed)</hi> H<hi rend="italic">enricus</hi> Pr<hi rend="italic"
-                  >inceps</hi>.</ab>
-            <ab>Guillelm<hi rend="italic">us</hi> Poape de Roxton in Comitate Oxoniæ admiss<hi
-                  rend="italic">u</hi>s est in societatem huius hospitij eodem die </ab>
+            <item><del type="erasure"><persName ana="Francis East">ffranciscus East</persName> de <space type="blank"/> in <placeName ana="Cambridgeshire">Comitate Cantabrigiæ</placeName> admiss<ex>us</ex> est in societatem hospitij nostri eod<ex>em</ex> die</del></item>
+               <!-- DKJ 2018-01-28: Would someone check to see how this cancellation should be handled? Was it the entire item? I've used space element with @type "blank" to trace what was written in the printed volume. If that is not necessary, please remove  -->
+               
+               <item>extra hospitiu<ex>m</ex> <del type="erasure">pr<ex>o</ex></del> in plena pencione tent<ex>us</ex> decimo octavo die Iunij A<ex>nn</ex>o 38 Elizabeth Regine: 
+                  
+               <seg type="signed" rend="center"><ex>(signed)</ex> <persName ana="Henry Helmes" resp="REED" role="Prince of Purpoole">Henric<ex>us</ex> Pr<ex>incep</ex>s Purpoole</persName>.</seg> </item>
+            </list>
+            <gap reason="omitted"/>
+         </div>
+      </body>
+   </text>
 
-            <note type="marginal"> [Extra hospicium] </note>
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="lat">
+         <head type="page" n="295">
+            <date when="1594-12-25" cert="high"><supplied>25 December</supplied></date>
+            <!-- DKJ 2018-01-28: would someone confirm that this should be 1594  -->
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
+         </head>
+         <div type="transcription">
+            
+            
+            <list>
+               <item><persName ana="John Cook">Ihoannes Cooke</persName> &amp; <persName ana="Edward Cook">Edwardus Cooke</persName> de <placeName ana="Westminster, London">Westminster</placeName> admissi<ex>us</ex> sunt in societate<ex>m</ex> hui<ex>us</ex> hospitij xxv die Decembris anno Elizabeth Regine xxx vij<lb/>
+               <seg type="signed" rend="center"><ex>(signed)</ex> <persName ana="Henry Helmes" resp="REED" role="Prince of Purpoole">Henry Pr<ex>incep</ex>s Purpoole</persName></seg> </item>
+               
+               <item><persName ana="Phillip Wentworth">Phillippus Waintworth</persName> de <placeName ana="Cotton, Suffolk">Cotton in Comitate Suffolciæ</placeName> <persName ana="Anthony Fletcher">Anthonius ffletcher</persName> de
+               <placeName ana="Cockermouth, Cumbria">Cockermouth in Comitate Comber<ex>landia</ex>e</placeName> <persName ana="Thomas Thomkins">Thomas Thomkins</persName> de <placeName ana="London">Civitate Londini</placeName> <persName ana="John Lily" cert="high" resp="#AHN1" role="playwright">Ihoannes Lillie</persName> de <placeName ana="London">Civitate Londini</placeName> <persName ana="Thomas Smith">Thomas Smith</persName> de <placeName ana="Framingham, Suffolk">fram<ex>m</ex>ingha<ex>m</ex> in Comitate Suffolk</placeName> admissi sunt in societatem huius hospitij die &amp; anno supradictis<lb/>
+               <seg type="signed"><ex>(signed)</ex> <persName ana="Henry Helmes" resp="REED" role="Prince of Purpoole">Henry Pr<ex>inceps</ex> Purpoole</persName></seg> </item>
+            </list>
+         </div>
+      </body>
+   </text>
 
-            <ab>[ffrancisc<hi rend="italic">us</hi> East de <hi rend="italic">(blank)</hi> in
-               Comitate Cantabrigiæ admissus est in societatem hospitij nostri eodem die] <lb/>
-               extra hospitium [pro] in plena pencione tentus decimo octavo die Iunij Anno 38
-               Elizabeth Regine: <lb/>
-               <hi rend="italic">(signed)</hi> Henric<hi rend="italic">us</hi> Pr<hi rend="italic"
-                  >inceps</hi> Purpoole. </ab>
+   <text ana="taxon:grays_inn" type="record">
+      <body xml:lang="lat">
+         <head type="page" n="298">
+            <date when="1594-01-06" cert="high"><supplied>6 January</supplied></date>
+            <!-- DKJ 2018-01-28: would someone confirm that this should be 1594  -->
+            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
+         </head>
+         <div type="transcription">
+            
+            <list>
+               <item><persName ana="John Spencer" resp="#AHN1" role="Mayor of London">Iohan<ex>nes</ex> Spencer</persName> Maior ciuitatis London<ex>i</ex> admissus est in societatem huius Hospitij sexto die Ianuarij. Anno d<ex>o</ex>m<ex>inae</ex> Reginae Eliz<ex>abethae</ex> 37<hi rend="superscript">o</hi>
+                  
+               <seg type="signed" rend="center">(signed) <persName ana="Henry Helmes" resp="REED" role="Prince of Purpoole">Henrie Helmes Pr<ex>incep</ex>s Purpool</persName></seg></item>
+            </list>
             <gap reason="omitted"/>
          </div>
       </body>
@@ -267,153 +310,88 @@
 
    <text ana="taxon:grays_inn" type="record" subtype="inn_book">
       <body xml:lang="lat">
-         <head>
-            <date when="1594-12-25" cert="high">25 December 1594</date>
-            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
-         </head>
-         <div type="main">
-            <head>p 295* <supplied>(25 December)</supplied>
-            </head>
-
-            <ab>Ihoannes Cooke &amp; Edwardus Cooke de Westminster admissi sunt in societatem hui<hi
-                  rend="italic">us</hi> hospitij xxv die Decembris anno Elizabeth Regine xxx vij<lb/>
-               <hi rend="italic">(signed)</hi> Henry Pr<hi rend="italic">inceps</hi> Purpoole </ab>
-
-            <ab>Phillippus Waintworth de Cotton in Comitate Suffolciæ Anthonius ffletcher de
-               Cockermouth in Comitate Comber<hi rend="italic">landia</hi>e Thomas Thomkins de
-               Civitate Londini Ihoannes Lillie de Civitate Londini Thomas Smith de fram<hi
-                  rend="italic">m</hi>ingha<hi rend="italic">m</hi> in Comitate Suffolk admissi sunt
-               in societatem huius hospitij die &amp; anno supradictis<lb/>
-               <hi rend="italic">(signed)</hi> Henry Pr<hi rend="italic">inceps</hi> Purpoole </ab>
-         </div>
-      </body>
-   </text>
-
-   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
-      <body xml:lang="lat">
-         <head>
-            <date when="1595-01-06" cert="high">1595</date>
-            <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 125">RLGIAB</seg>
-         </head>
-         <div type="main">
-            <head>p 298* <supplied>(6 January)</supplied>
-            </head>
-
-            <ab>Iohan<hi rend="italic">nes</hi> Spencer Maior ciuitatis London<hi rend="italic"
-                  >i</hi> admissus est in societatem huius Hospitij sexto die Ianuarij. Anno d<hi
-                  rend="italic">o</hi>m<hi rend="italic">inae</hi> Reginae Eliz<hi rend="italic"
-                  >abethae</hi> 37º<lb/>
-               <hi rend="italic">(signed)</hi> Henrie Helmes Pr<hi rend="italic">inceps</hi>
-               Purpool</ab>
-            <gap reason="omitted"/>
-         </div>
-      </body>
-   </text>
-
-   <text ana="taxon:grays_inn" type="record" subtype="inn_book">
-      <body xml:lang="lat">
-         <head>
-            <date from-iso="1617" to-iso="1618">1617-18</date>
+         <head type="page" n="739-40">
+            <note type="editorial">Henry, Prince of Purpoole of Gray’s Inn for 1617–18, called Henry the second (Henry Helmes of 1594–5 becoming retrospectively Henry the first) was Henry Yelverton: see below, endnote to STC: 17944a.5 single sheet verso col 2. Sir Dudley Digges was admitted to Gray’s Inn a second time, just prior to 8 November 1630, presumably because this admission by the Prince of Purpoole was not deemed sufficiently regular (Fletcher (ed), Pension Book, p 299, n 1).</note>
+            <!-- DKJ 2018-01-28: should this last reference be a pointer to the Gray's Inn Pension Book records? -->
+            
+            <note type="editorial" n="STC">The unnamed Gray’s Inn Prince of Purpoole for 1617–18 was ‘Henry Yelverton, second son of William Y., of Rougham, Norfolk, Esq.’ He was admitted 2 February 1611/12 and knighted (as ‘of Gray’s Inn’) 23 February 1617/18 at Newmarket (Foster, Register, p 129; and Wm. A. Shaw, The Knights of England, vol 2 (London, 1906), 167). For ‘Henry the first,’ and for Edward Smyth of Lincoln’s Inn, see Introduction, p xx.</note>
+            <!-- how should we format endnotes that refer to one another AND to locations within the printed volume AND to bibliographical references?? -->
+            
+            <date from-iso="1617" to-iso="1618" cert="high">1617-18</date>
             <seg ana="docu:RLGIAB" corresp="docu:IC1 p. 200">RLGIAB</seg>
          </head>
-         <div type="main">
-            <head>pp 739-40* </head>
+         <div type="transcription">
 
             <list>
-               <item> [Henricus Pr<hi rend="italic">inceps</hi> abs<hi rend="italic">que</hi> fine
-                     dur<hi rend="italic">an</hi>ti festo]† </item>
-               <item> [Admissus est Thomas Wright Londinensis armiger 26: Decemb<hi rend="italic"
-                     >ris</hi> per Hen<hi rend="italic">ricum</hi> 2 Pr<hi rend="italic"
-                     >incipem</hi> 1617:] </item>
-               <note type="marginal"> Consimiliter: </note>
-               <item> Admissus Edw<hi rend="italic">ardus</hi> Aschan Armiger de Cottom in Comitatu
-                     Lincoln<hi rend="italic">iae</hi> 26: Decemb<hi rend="italic">ris</hi> p<hi
-                     rend="italic">er</hi> Hen<hi rend="italic">ricum</hi> 2 Pr<hi rend="italic"
-                     >incipem</hi> 1617 </item>
-               <item> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
-                     abs<hi rend="italic">que</hi> fine† </item>
-               <item> Admissus est Sam<hi rend="italic">uel</hi> Tryon de London miles 29: Decemb<hi
-                     rend="italic">ris</hi> p<hi rend="italic">er</hi> Hen<hi rend="italic"
-                     >ricum</hi> 2 Pr<hi rend="italic">incipem</hi> 1617: </item>
-               <note type="marginal"> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic"
-                     >urpoolae</hi>
-               </note>
-               <item> Admissus est Huntington Corney Hastings de Pickering<note type="editorial"
-                     >Huntingdon Hastings Corney, son of John Corney</note> in com<hi rend="italic"
-                     >itatu</hi> Eboru<hi rend="italic">m</hi> Armiger 29 Decemb<hi rend="italic"
-                     >ris</hi> p<hi rend="italic">er</hi> Hen<hi rend="italic">ricum</hi> 2 Prin<hi
-                     rend="italic">cipem</hi> 1617: </item>
-               <note type="marginal"> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic"
-                     >urpoolae</hi>
-               </note>
-               <item> Admissus est Tho<hi rend="italic">mas</hi> Lee de London Armiger 30: Decemb<hi
-                     rend="italic">ris</hi> per Hen<hi rend="italic">ricum</hi> 2 Prin<hi
-                     rend="italic">cipem</hi> 1617: </item>
-               <note type="marginal"> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic"
-                     >urpoolae</hi>
-               </note>
-               <item> Admissus est Tho<hi rend="italic">mas</hi> Woode ^⎡miles⎤ de cam<hi
-                     rend="italic">era</hi> regali gen<hi rend="italic">erosus</hi> [miles] 30:
-                     Decemb<hi rend="italic">ris</hi> p<hi rend="italic">er</hi> Hen<hi
-                     rend="italic">ricum</hi> 2 Principem 1617: </item>
-               <item> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
-                     absq<hi rend="italic">ue</hi> fine† </item>
-               <item> Admissus est Edward [Philmere] ffilmere armiger de Est Sutton in Com<hi
-                     rend="italic">itatu</hi> Cant<hi rend="italic">uariae</hi> 3: Ian<hi
-                     rend="italic">uarij</hi> p<hi rend="italic">er</hi> Hen<hi rend="italic"
-                     >ricum</hi> 2 Prin<hi rend="italic">cipem</hi> 1617: </item>
-               <item> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic">urpoolae</hi>
-                     abs<hi rend="italic">que</hi> fine† </item>
-               <item> Admissus est Iaruis Eluishe de ^⎡London in com<hi rend="italic">itatu</hi>
-                  Medilsex armiger: 4: Ian<hi rend="italic">uarij</hi> p<hi rend="italic">er</hi>
-                     Hen<hi rend="italic">ricum</hi> 2 Pr<hi rend="italic">incipem</hi> 1617: </item>
-               <note type="marginal"> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic"
-                     >urpoolae</hi>
-               </note>
-               <item> Admissus est Ihohan<hi rend="italic">nes</hi> Smith miles de Leids in com<hi
-                     rend="italic">itatu</hi> Cantuariae 4: Ian<hi rend="italic">uarij</hi> p<hi
-                     rend="italic">er</hi> Hen<hi rend="italic">ricum</hi> 2 Pr<hi rend="italic"
-                     >incipem</hi> 1617: </item>
+               <note type="marginal" rend="left"><del type="erasure"><persName ana="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s</persName> abs<ex>que</ex> fine dura<ex>n</ex>ti festo</del></note> 
+               
+               <item> <del type="erasure">Admissus est <persName ana="Thomas Wright">Thomas Wright</persName> <placeName ana="London">Londinensis</placeName> armiger <date when-iso="1617-12-26">26: Decemb<ex>ris</ex></date> p<ex>er</ex> <persName ana="Henry Yelverton" resp="#AHN1" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617:</del> </item>
+               
+               <note type="marginal" rend="left"> Consimiliter: </note>
+               
+               <item>Admissus <persName ana="Edward Ascough">Edw<ex>ardus</ex> Aschan</persName> Armiger de <placeName ana="Cottam, Lincolnshire">Cottom in Com<ex>itatu</ex> Lincoln<ex>iae</ex></placeName> <date when-iso="1617-12-26">26: Decemb<ex>ris</ex></date> per <persName ana="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617 </item>
+               
+               <note type="marginal" rend="left"><persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine</note>
+               
+               <item>Admissus est <persName ana="Samuel Tryon">Sam<ex>uel</ex> Tryon</persName> de <placeName ana="London">London</placeName> miles <date when-iso="1617-12-29">29: Decemb<ex>ris</ex></date> per <persName ana="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex></persName> 1617: </item>
+               
+               <note type="marginal" rend="left"> <persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item> Admissus est <persName ana="Huntington Hastings Corney">Huntington Corney Hastings</persName> de <placeName ana="Pickering, Yorkshire" cert="low" resp="#JAKA1">Pickering
+                  in com<ex>itatu</ex> Eboru<ex>m</ex></placeName> Armiger <date when-iso="1617-12-29">29 Decemb<ex>ris</ex></date> per <persName ana="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item><note type="editorial">Huntingdon Hastings Corney, son of John Corney</note>
+               
+               <note type="marginal" rend="left"> <persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item> Admissus est <persName ana="Thomas Lee">Tho<ex>mas</ex> Lee</persName> de <placeName ana="London">London</placeName> Armiger <date when-iso="1617-12-30">30: Decemb<ex>ris</ex></date> p<ex>er</ex> <persName ana="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
+               
+               <note type="marginal" rend="left"><persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item>Admissus est Tho<ex>mas</ex> Woode ^<add place="above">miles</add> de cam<ex>era</ex> regali gen<ex>erosus</ex> <del type="erasure">miles</del> <date when-iso="1617-12-30">30: Decembris</date> per <persName ana="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
+               
+               <note type="marginal" rend="left"> <persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>inceps</ex> P<ex>urpoolae</ex></persName> absque fine </note>
+               
+               <item> Admissus est <persName ana="Edward Filmere">Edward <add place="above">Philmere</add> ffilmere</persName> armiger de <placeName ana="East Sutton, Kent">Est Sutton in Com<ex>itatu</ex> Cant<ex>uariae</ex></placeName> 3: Ian<ex>uarij</ex> p<ex>er</ex> Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex> 1617: </item>
+               
+               <note type="marginal" rend="left"> <persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>inceps</ex> P<ex>urpoolae</ex>
+                     abs<ex>que</ex></persName> fine</note>
+               
+               <item> Admissus est <persName ana="Gervase Elwes">Iaruis Eluishe</persName> de ^<add place="above"><placeName ana="London Middlesex">London</placeName> in comitatu</add> Medilsex armiger: <date when-iso="1617-01-04">4: Ian<ex>uarij</ex></date> p<ex>er</ex> Hen<ex>ricum</ex> 2 Pr<ex>incipem</ex> 1617:</item>
+               
+               <note type="marginal" rend="left"> <persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName></note>
+               
+               <item> Admissus est <persName ana="John Smith">Ihohan<ex>nes</ex> Smith</persName> miles de <placeName ana="Leeds, Kent" cert="medium" resp="#JAKA1">Leids in com<ex>itatu</ex> Cantu<ex>ariae</ex></placeName> <date when-iso="1617-01-04">4: Ian<ex>uarij</ex></date> p<ex>er</ex> <persName ana="Henry Yelverton" role="Prince of Purpoole">Hen<ex>ricum</ex> 2 Prin<ex>cipem</ex></persName> 1617: </item>
 
-               <note type="marginal"> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic"
-                     >urpoolae</hi> abs<hi rend="italic">que</hi> fine </note>
+               <note type="marginal" rend="left"> <persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine </note>
 
-               <item> Tobyas Wright fillius et heres Richardi Wright de Lewknor in Com<hi
-                     rend="italic">itatu</hi> O<hi rend="italic">xoniae</hi> Ar<hi rend="italic"
-                     >miger</hi> admissus est in Societate<hi rend="italic">m</hi> huius hospicij
-                  quinto die Ianuarij Anno Primo Henrici secundi primo 1617 </item>
+               <item> <persName ana="Tobias Wright">Tobyas Wright</persName> fillius et heres <persName ana="Richard Wright">Richardi Wright</persName> de <placeName ana="Lewknor, Oxfordshire">Lewknor in Com<ex>itatu</ex> Ox<ex>oniae</ex></placeName> Ar<ex>miger</ex> admissus est in Societate<ex>m</ex> huius hospicij <date when-iso="1617-01-05">quinto die Ianuarij</date> Anno Primo Henrici secundi prim<ex>o</ex> 1617 </item>
 
-               <note type="marginal"> Henricus Pr<hi rend="italic">inceps</hi> P<hi rend="italic"
-                     >urpoolae</hi> abs<hi rend="italic">que</hi> fine </note>
+               <note type="marginal" rend="left"><persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> abs<ex>que</ex> fine </note>
 
-               <item> Edvardus Yelverton Armiger de London Admissus est in societate<hi
-                     rend="italic">m</hi> huius hospitii die et Anno predic<hi rend="italic"
-                     >tis</hi> | </item>
+               <item> <persName ana="Edward Yelverton">Edvardus Yelverton</persName> Armiger de <placeName ana="London">London</placeName> Admissus est in societate<ex>m</ex> huius hospitii die et Anno predic<ex>tis</ex> | </item>
 
-               <note type="marginal"> °2<hi rend="superscript">o</hi> Februarij 1617.°] </note>
+               <note type="marginal" rend="left"> <handShift/>2<hi rend="superscript">o</hi> Februarij 1617.<handShift/> </note>
 
-               <item> °Esme Steward Domin<hi rend="italic">us</hi> Aubigeney admissus est in hanc
-                  Societatem Die &amp; Anno sup<hi rend="italic">r</hi>adictis./ </item>
+               <item> <handShift/><persName ana="Esmé Stuart" role="aristocracy">Esme Steward</persName> Domin<ex>us</ex> Aubigeney admissus est in hanc Societatem Die &amp; Anno supradictis./ </item>
 
-               <item> Arthurus Ingram miles Secretarius cora<hi rend="italic">m</hi> Presidente
-                  &amp; Concilio Do<hi rend="italic">m</hi>ini Regis in partib<hi rend="italic"
-                     >us</hi> Borealis admissus est in hanc societatem die &amp; anno supradictis./ </item>
+               <item> <persName ana="Sir Arthur Ingram">Arthurus Ingram</persName> miles Secretarius coram Presidente
+                  &amp; Concilio Dom<ex>ini</ex> Regis in partib<ex>us</ex> Borealis admissus est in hanc societatem die &amp; anno supradictis./ </item>
 
-               <item> Iohannes Butler miles de Woodhall in comitatu Hartfordiæ admissus est in hanc
-                  societatem die &amp; anno supradictis Gulielmus Button miles de London admissus
-                  est vt supra </item>
+               <item> <persName ana="Sir John Butler">Iohannes Butler</persName> miles de <placeName ana="Woodhall, Hertfordshire">Woodhall in comitatu Hartfordiæ</placeName> admissus est in hanc
+                  societatem die &amp; an<ex>n</ex>o supradictis </item>
+               
+               <item><persName ana="Sir William Button">Gulielmus Button</persName> miles de <placeName ana="London">London</placeName> admissus est vt sup<ex>r</ex>a </item>
 
-               <note type="marginal"> °Henricus Princep s Purpoolae 2us° </note>
+               <note type="marginal" rend="left"> <handShift/><persName ana="Henry Yelverton" role="Prince of Purpoole">Henricus Pr<ex>incep</ex>s P<ex>urpoolae</ex></persName> 2<hi rend="superscript">us</hi><handShift/> </note>
 
-               <item> Dudley Diggs miles de Chilham in Comitatu Canciae: admissus est vt supra </item>
+               <item> <persName ana="Sir Dudley Digg">Dudley Digg</persName>s miles de <placeName ana="Chilham, Kent">Chilham in Com<ex>itatu</ex> C<ex>anciae</ex></placeName>: admissus est vt sup<ex>r</ex>a </item>
 
-               <item> Iohannes Packington Armiger filius &amp; heres Iohannis Packington Militis
-                  admissus est vt supra </item>
+               <item> <persName ana="John Packington /son/">Iohannes Packington</persName> Armiger filius &amp; heres <persName ana="Sir John Packington /father/">Iohannis Packington</persName> Milit<ex>is</ex>
+                  admissus est vt sup<ex>r</ex>a </item>
 
-               <item> Richardus Ihonson filius &amp; heres Richardi Iohnson admissus est in hanc
-                  Societatem vt supra </item>
+               <item> <persName ana="Richard Johnson /son/">Richardus Ihonson</persName> filius &amp; heres <persName ana="Richard Johnson /father/">Richardi Iohnson</persName> admissus est in hanc
+                  Societatem vt sup<ex>r</ex>a </item>
 
-               <item> Thomas Talbot de Risly in Comitatu Bedfordiae admissus vt supra° </item>
+               <item> <persName ana="Thomas Talbot">Thomas Talbot</persName> de <placeName ana="Wriothesley, Bedfordshire">Risly in Com<ex>itatu</ex> Bedford<ex>iae</ex></placeName> admissus vt sup<ex>r</ex>a<handShift/> </item>
             </list>
             <gap reason="omitted"/>
          </div>
