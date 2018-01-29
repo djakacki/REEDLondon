@@ -571,8 +571,8 @@
             <note>First set of sources corresponds with print 'IoC: The Documents' section, pages xlviii-lxxxii</note>
  
             <listBibl>
-<!-- REED Inns of Court volumes -->
-               <msDesc xml:id="IC1">
+<!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _1_-->
+               <msDesc xml:id="RPCIC1">
                   <msIdentifier>
                      <settlement>Toronto, CA</settlement>
                      <repository sameAs="#REED"/>
@@ -580,15 +580,15 @@
                   </msIdentifier>
                </msDesc>
                
-               
-               <msDesc xml:id="IC2">
+               <!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _2_-->               
+               <msDesc xml:id="RPCIC2">
                   <msIdentifier>
                      <settlement>Toronto, CA</settlement>
                      <repository sameAs="#REED"/>
                      <msName>Inns of Court, Volume 2</msName>
                   </msIdentifier>
                </msDesc>
-               
+               <!-- REED Inns of Court volume with id's equating to "_R_EED _P_rint _C_ollection _I_nns of _C_ourt_ Volume _3_-->              
                <msDesc xml:id="IC3">
                   <msIdentifier>
                      <settlement>Toronto, CA</settlement>
@@ -596,9 +596,13 @@
                      <msName>Inns of Court, Volume 3</msName>
                   </msIdentifier>
                </msDesc>
+
+<!-- Document ID structure begins with RL (REED London)  --> 
                
-<!-- Gray's Inn documents -->
-               <msDesc xml:id="RLGIPB1">
+<!-- Gray's Inn documents: all IDs begin with RLGI (Gray's Inn) -->
+
+<!-- Gray's Inn Pension Book: id RLGIP1 (Pension_book 1)  -->
+               <msDesc xml:id="RLGIP1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#GIA"/>
@@ -612,7 +616,7 @@
                      contemporary ink foliation 1–563 (40, 41, 84, 145 duplicated); 19th-c. binding in stamped leather over boards, title on spine in gold: ‘GRAY’S INN | BOOK OF ORDERS | VOL. I | 11 OF ELIZ. | TO | 18 OF CHA: 2. disbound and repaired 2006–7.’ Folio [i] contains a list of musicians dated 22 October 1618; ff [i verso] to [ii verso] contain a partial table of contents for the first 287 leaves; f [iii] is an account sheet from 1569.</ab>
                </msDesc>
               
-               
+<!-- Gray's Inn Admittance Book: id RLGIAB (Admittance Book)  -->               
                <msDesc xml:id="RLGIAB">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -624,7 +628,8 @@
 The standard essential publication is Joseph Foster (ed), <hi rend="italic">The Register of Admissions to Gray’s Inn, 1521–1889, together with the Register of Marriages in Gray’s Inn Chapel, 1695–1754</hi> (London, 1889).</ab>
                   <ab type="techDesc"><date>1581–1649</date>; Latin and English; paper; v + 526 + v; 405mm x 280mm; pagination 5–1052 (pp 1–4, 7–8, 447–8 missing); rebound 1982 in half-leather, title on spine: ‘Gray’s Inn Admittance Book 1581–1649.’</ab>
                </msDesc>
-               
+
+<!-- Gray's Inn Ledger Book: id RLGILB (Ledger Book)  --> 
                <msDesc xml:id="RLGILB">
                   <msIdentifier>
                      <settlement>London</settlement>
@@ -636,7 +641,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc"><date>1584–1680;</date> Latin and English; paper; ii + 406 + ii; 420mm x 270mm; contemporary ink foliation 1–225 and contemporary ink pagination 226–406; 19th-c. binding in leather over board, title on spine in gold: ‘LEDG. | A | 1586.’</ab>
                </msDesc>
 
-               <msDesc xml:id="RLABJB">
+<!-- Gray's Inn Account Book - John Bankes: id RLGIAJ (Account_book John_bankes)  --> 
+               <msDesc xml:id="RLGIAJ">
                   <msIdentifier>
                      <settlement>Dorchester</settlement>
                      <repository sameAs="#DHC"/>
@@ -648,7 +654,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                </msDesc>
 
 <!-- Inner Temple Documents -->
-               <msDesc xml:id="RLITPB1">
+<!-- Inner Temple Parliament Books, Book One: id RLITP1 (Parliament_book 1) -->
+               <msDesc xml:id="RLITP1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -662,7 +669,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc">1505–89; Latin, French, and English; paper; iii + 247 + ii; because of damage by fire, leaves vary in size, averaging 410mm x 140mm, inset in modern backing paper 425mm x 165mm; modern pencil foliation 1–247 (1–12 are entirely or mostly blank, ff 47–86 bound out of order); bound in stiff parchment, with leather hinges and thongs.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLITPB2">
+<!-- Inner Temple Parliament Books, Book Two: id RLITP2 (Parliament_book 2) -->
+               <msDesc xml:id="RLITP2">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -671,8 +679,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   </msIdentifier>
                   <ab type="techDesc"><date>1589–1638</date>; Latin and English; paper; ii + 266 + ii; 435mm x 180mm; earlier pen foliation on upper-right corners superseded by modern pencil foliation bottom right 1–265 (followed here); bound in red buckram with gold stamping on spine.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLITPB3">
+
+<!-- Inner Temple Parliament Books, Book Two: id RLITP3 (Parliament_book 3) -->
+               <msDesc xml:id="RLITP3">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -681,8 +690,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   </msIdentifier>
                   <ab type="techDesc"><date>1638–64</date>; Latin and English; paper; ii + 187 + ii; 435mm x 180mm; modern pencil foliation 1–186; bound in red buckram with gold stamping on spine.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLITAB">
+
+<!-- Inner Temple Admissions Register: id RLITAR (Admissions Register) -->
+               <msDesc xml:id="RLITAR">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -691,8 +701,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   </msIdentifier>
                   <ab type="techDesc"><date>1547–61</date>; English; paper; vi + 47 + iv; 392mm x 150mm; contemporary ink pagination; all pages torn at sides and now archivally repaired by being pasted onto new paper; rebound in modern brown cloth, title on red leather insert on spine: ‘ADMISSIONS 1547– 1571.’ Bottom two thirds of p 46 and all of p 47 (missing top quarter of page) contain a draft list of payments and receipts.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLITTSBA">
+
+<!-- Inner Temple Treasurers', Stewards', and Butlers' Accounts: id RLITTA (Treasuers_stewards_butlers Accounts) -->
+               <msDesc xml:id="RLITTA">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -703,8 +714,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                      In addition to the documents described below, two fragmentary copies of the treasurers’ accounts for 1621–2 and 1623–4 survive in the Birmingham Reference Library: Coventry MSS 660743, nos. 35 &amp; 36. These are duplicate copies which originally belonged to Sir Thomas Coventry, the treasurer. Each lacks the page recording payments for music and plays in those years, so are not collated here.</ab>
                   <ab type="techDesc"><date>1605–48</date>; Latin and English; paper; 321 leaves; 450mm x 160mm; modern pencil foliation a–f, 1–316 (f a originally a paste-down); original stamped leather binding, badly deteriorated.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLITCA1">
+
+<!-- Inner Temple Christmas Accounts, Book 1: id RLITC1 (Christmas_accounts 1) -->
+               <msDesc xml:id="RLITC1">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#ITA"/>
@@ -715,7 +727,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc"><date>1614–82</date>; Latin and English; paper; i + 229; 445mm x 175mm; modern pencil foliation 1–229 (ff 133–226 blank); original tooled leather binding with 3 leather straps.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLITCA2">
+<!-- Inner Temple Christmas Accounts, Book 2: id RLITC2 (Christmas_accounts 2) -->
+               <msDesc xml:id="RLITC2">
                   <msIdentifier>
                      <settlement>Matlock, Derbyshire</settlement>
                      <repository sameAs="#DRO"/>
@@ -732,8 +745,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                <!-- Go back and fill in pages lvii to lxii -->
 
 <!-- Diplomatic Letters -->
-               
-               <msDesc xml:id="RLDL1">
+ 
+<!-- Diplomatic Letters, Spain, 1: id RLDLS1 (Diplomatic_letters Spain 1)-->
+               <msDesc xml:id="RLDLS1">
                   <msIdentifier>
                      <settlement>Simancas</settlement>
                      <repository sameAs="#AGS"/>
@@ -743,8 +757,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc">For English translations of complete letters, see Martin A.S. Hume (ed), Calendar of Letters and State Papers, Relating to English Affairs, Preserved Principally in the Archives of Simancas (London, 1892; rpt Nendeln, 1971), 404–6, 564–6.</ab>
                   <ab type="techDesc"><date>12 March 1564/5</date>; Spanish; paper; bifolia; 333mm x 225mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLDL2">
+
+<!-- Diplomatic Letters, Spain, 2: id RLDLS2 (Diplomatic_letters Spain 2)-->
+               <msDesc xml:id="RLDLS2">
                   <msIdentifier>
                      <settlement>Simancas, Spain</settlement>
                      <repository sameAs="#AGS"/>
@@ -754,8 +769,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc">See RLDL1</ab>
                   <ab type="techDesc"><date>6 July 1566</date>; Spanish; paper; bifolia; 333mm x 228mm (text area varies); unnumbered; written in a scribal hand with Guzman’s signature at the end of each text; bound in guardbook.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLDL3">
+
+<!-- Diplomatic Letters, Italy, 1: id RLDLI1 (Diplomatic_letters Italy 1)-->
+               <msDesc xml:id="RLDLI1">
                   <msIdentifier>
                      <settlement>Venice, Italy</settlement>
                      <repository sameAs="#ASV"/>
@@ -766,7 +782,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc">Senato, dispacci ambasciatori, Inghilterra, filza XXI; <date>16 February 1620/1</date>; Italian; paper.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLDL4">
+<!-- Diplomatic Letters, Italy, 2: id RLDLI2 (Diplomatic_letters Italy 2)-->
+               <msDesc xml:id="RLDLI2">
                   <msIdentifier>
                      <settlement>Venice, Italy</settlement>
                      <repository sameAs="#ASV"/>
@@ -788,7 +805,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                </msDesc>
 
 <!-- Private Correspondence -->
-               <msDesc xml:id="RLPC001">
+
+<!-- Private Correspondence, Inner Temple to Privy Council: id RLP001 (Private_correspondence 001) NB: making this a longer # to anticipate for large quantity of correspondence-->               
+               <msDesc xml:id="RLP001">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#TNA"/>
@@ -799,7 +818,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc"><date>5 January 1639/40</date>; English; paper; single sheet; 335mm x 235mm. Unsigned copy, now bound and foliated as ff 126–7.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLPC002">
+<!-- Private Correspondence, William Baldwin to Sir Thomas Cawarden: id RLP002 (Private_correspondence 002)-->     
+               <msDesc xml:id="RLP002">
                   <msIdentifier>
                      <settlement>Washington, DC</settlement>
                      <repository sameAs="#folger-shakespeare-library"/>
@@ -810,7 +830,8 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="techDesc"><date>c 1555</date>;English; paper; bifolium (no longer conjugate except by repair); 307mm x 218mm; previous foliation 115; addressed: ‘To the right wurshipfull Syr Thomas Caverden dd’; endorsed: ‘The note of a playe and the nayemes of players Anno 1556,’ ‘Revylls,’ ‘1556,’ ‘a lettre of a play’.</ab>
                </msDesc>
                
-               <msDesc xml:id="RLPC003">
+<!-- Private Correspondence, Francis Bacon to William Cecil: id RLP003 (Private_correspondence 003)--> 
+               <msDesc xml:id="RLP003">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#BL"/>
@@ -820,8 +841,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc">Francis Bacon and William Cecil were members of Gray’s Inn. This letter was clearly composed before 4 August 1598, the date of Burghley’s death. Since both the proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’ that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than his successor, William Brooke (1527–97), who served only a year before his death. The previous masque may have been part of Gesta Grayorum.</ab>
                   <ab type="techDesc">undated; English; paper; single sheet; 175mm x 260mm; written on 1 side only. Mounted in guardbook and numbered as f 13.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLPC004">
+
+<!-- Private Correspondence, Middle Temple to the Earl of Shrewsbury: id RLP004 (Private_correspondence 004)--> 
+               <msDesc xml:id="RLP004">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#LP"/>
@@ -831,8 +853,9 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc"></ab>
                   <ab type="techDesc"><date>1597</date>; English; paper; bifolium; 290mm x 195mm. Now paginated 249–52 and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. H, formerly at the College of Arms.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLPC005">
+
+               <!-- Private Correspondence, Letter of the Prince d’Amour to the Earl of Shrewsbury: id RLP005 (Private_correspondence 005)--> 
+               <msDesc xml:id="RLP005">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository sameAs="#LP"/>
@@ -842,13 +865,14 @@ The standard essential publication is Joseph Foster (ed), <hi rend="italic">The 
                   <ab type="edDesc"></ab>
                   <ab type="techDesc"><date>25 December 1597</date>; English; parchment; bifolium; 270mm x 185mm. Now foliated 77–7v and bound in a volume of miscellaneous papers relating to the Talbot family; originally bound in Talbot Manuscript, Shrewsbury Letters, Vol. K, formerly at the College of Arms.</ab>
                </msDesc>
-               
-               <msDesc xml:id="RLPC006">
+
+<!-- Private Correspondence, Letter of Sir John Popham to Sir Robert Cecil: id RLP006 (Private_correspondence 006)--> 
+               <msDesc xml:id="RLP006">
                   <msIdentifier>
                      <settlement>Hatfield</settlement>
                      <repository sameAs="#HHL"/>
                      <idno type="shelfmark">Cecil Papers Vol. 85/18</idno>
-                     <msName>etter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</msName>
+                     <msName>Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</msName>
                   </msIdentifier>
                   <ab type="edDesc">At the time this letter was written Sir John Popham (c 1531–1607) was chief justice of the king’s bench. As a prominent member of the Middle Temple, he was in a position to offer the Inn’s funds, and the services of its young gentlemen, to entertain the queen. The recipient of Popham’s letter was Sir Robert Cecil (1563–1612), then secretary of state.</ab>
                   <ab type="techDesc"><date>8 February 1601/2</date>; English; paper; bifolium; 301mm x 199mm; unnumbered; addressed: ‘To the Right honorable Sir Robert Cycell knight principall Secretarie to her Maiestie,’ and endorsed: ‘8: februar: 1610 Lord chief Justice To my Master.’</ab>
