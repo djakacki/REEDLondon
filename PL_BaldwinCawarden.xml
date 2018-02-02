@@ -219,20 +219,21 @@
    </teiHeader>
 
    <!-- DKJ 2018-01-28: Please review updated record structure to make sure I'm structuring the elements and attributes correctly. Please go ahead and make corrections directly, then comment on what you've done so I can make sure I can apply corrections to other record files -->
-        
+    <!--#CB 2018-02-02: I did some remodelling below. Might be easier to understand if you look at comments on Bacon-Cecil letter first. -->
    <text ana="taxon:letter" type="record" n="private_correspondence">
       <body xml:lang="eng">
-         <head type="single_sheet" n="f [1]"><note type="editorial">This letter is photographically reproduced, transcribed, and partly annotated in Jean F. Preston and Laetitia Yeandle, English Handwriting 1400–1650: An Introductory Manual (Binghamton, NY, 1992), 42–3.</note>
-            <date from-iso="1555" to-iso="1556" cert="low">1555–6 (?)</date>
-            <!-- Does this resolve the date issue? #DJ 2018-01-28.
+         <head>Inns of Court<!-- #CB 2018-02-02: Deleted folio info from this head. Added "Inns of Court" after tag to parallel staffs -->
+            <date from-iso="1555" to-iso="1556" cert="low">1555–6 (?)</date><!-- #CB 2018-02-02: removed endnote from <head> and inserted below record in <div> -->
+            <!-- #CB 2018-01-22: would still like to have cert vs precision discussion. precision seems the better choice for a question mark date? Discuss with James C on google doc?. Does this resolve the date issue? #DJ 2018-01-28.
                Circa issue I commented on in PL_Bacon-Cecil file re notBefore and notAfter attributes also applies here. #CB 2018-01-22 -->
-            <seg ana="docu:RLP002" corresp="docu:RLPCI1 p.80">RLP002</seg>
-            <supplied>Letter of William Baldwin to Sir Thomas Cawarden</supplied></head>
+		 <seg ana="docu:RLP002" corresp="docu:RLPCI1 p.80">RLP002</seg></head>
+	       <div type="transcription">
+            <head>f [1]<supplied>Letter of William Baldwin to Sir Thomas Cawarden</supplied></head><!-- #CB 2018-02-02: added f [1] after <head>. -->
          <!-- Does this resolve the code issue? (also considered in tagging decisions document. #DJ 2018-01-28.
             REED Online is using six-letter codes for all docs. All codes begin with a two-letter collection code (so, say, IC for Inns). Would it work for you to adopt? #CB 2018-01-22 -->            
-         <div type="transcription">
+        
 
-            <pb n="f [1]"/>
+            <pb n="1" type="folio"/>
             <!-- I've removed the asterisk and added the endnote above. Do we need to keep the pb here if it's already invoked in the <head>? DJ: 2018-01-28
                We didn't keep asterisks in REED Online. The endnotes are identified by TEI, so any flags can be inserted automatically if needed. -->
                
@@ -248,11 +249,13 @@ this is centred in original manuscript, and we did opt to preserve that both in 
             <ab><persName n="Sir Thomas Cawarden">You</persName> shall vnderstande syr that <persName n="William Baldwin">I</persName> have<note type="other">v corrected from another letter</note> made a Co<ex>m</ex>modie concernyng <title n="The Way to Life">the way to lyfe</title>, mete as it is supposed to be played ^<add place="above">before</add> <persName n="Queen Elizabeth I">the Quene</persName>, and there be of <orgName n="Inns of Court, combined">the Innes of court</orgName><note type="editorial">I corrected from i</note> that desyer to have the setting furth therof, but because <persName n="Sir Thomas Cawarden">your m<ex>aster</ex>ship</persName> now thre yeres passed offered in a sort to set furth sum of <persName n="William Baldwin">my</persName> rude devises, I thought it good to know <persName n="Sir Thomas Cawarden">your</persName> mynde herein, before <persName n="William Baldwin">I</persName> gave answer to any other/ The settyng furth wil be chargeable because the matter is stately, comprehending a discourse of the hole worlde/ There be in it of svndry personages .lxij. and the play is iij. houres long, it is now in learnyng and well be ready within these .x. dayes/ The matter is this, I bring in a yong man whome I name Lamuel who hath a servant called Lob, these two will attempt the worlde to seke theyr fortune, they mete with Lust lucke and love, Lust promiseth them lecherie, Lucke lordship, Love Lyfe, they folow lvst and through lechery be lost, than through Lucke they recover, Lucke bringeth them to lordship from which through Larges and larracine they cu<ex>m</ex> to Lacke/ Than through Love, the go to Light &amp; therby attayne Lyfe/ All the players names beginne with L. And be<note type="other">b corrected from another letter</note> such<note type="other">s corrected from th</note> as ensue</ab>
             <note type="editorial">In his letter to Sir Thomas Cawarden c 1555–6 (?), Baldwin claims to ‘have made a Com<ex>m</ex>odie concernyng the way to lyfe’ appropriate for performance before the queen (Mary); moreover, ‘there be of the Innes of court that desyer to have the setting furth therof.’</note>
             
-            <!-- 
+            <!-- #CB 2018-02-02: Bit confused by your comment below. You seem to be asking about what is explained in the next line? We use <note type="foot"> where you are currently using <note type="other"> -->.
+		       <!-- 
                In the schema there isn't a choice for endnote, so I've been using "editorial" where it seems to be in line with something the editor addressed. But what @type should I use for corrections (as noted at the bottom of a page?) For now I'm using "other" but if there is a protocol let me know. #DJ 2018-01-28
-               We used <div type="endnote"> to surround endnotes, to contrast with type="transcription" or type="translation". <note> only used for footnotes within text and marginalia as <note type="foot"> or <note type="marginal">. #CB 2018-01-22 -->	    
+               We used <div type="endnote"> to surround endnotes, to contrast with div type="transcription" or div type="translation". <note> used for footnotes within text and marginalia as <note type="foot"> or <note type="marginal">. #CB 2018-01-22 -->	    
                <!-- Can we add discussion of to tag or not to tag interlineation to larger discussion of whether your coding is treating print vol or ms as artifact? Here you are preserving half brackets, but these are not in ms only used to symbolize text written above line. REED Online uses <add place="above"> instead of upper half brackets and <add place="below"> instead of lower half brackets. #CB 2018-01-22 -->
             </div>
+	      <div type="endnote">This letter is photographically reproduced, transcribed, and partly annotated in Jean F. Preston and Laetitia Yeandle, English Handwriting 1400–1650: An Introductory Manual (Binghamton, NY, 1992), 42–3.</note></div><!-- #CB 2018-02-02: I added this here. Note it's div not note that is the surrounding element. -->
       </body>
    </text>
   
