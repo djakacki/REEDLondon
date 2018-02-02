@@ -276,12 +276,12 @@
                   <hi rend="right"><persName n="Francis Bacon">Fr<ex>ancis</ex>
                      Bacon</persName></hi></seg></ab>
 
-            <note type="editorial">Francis Bacon and William Cecil were members of Gray’s Inn. This letter was
+            <div type="endnote">Francis Bacon and William Cecil were members of Gray’s Inn. This letter was
                clearly composed before 4 August 1598, the date of Burghley’s death. Since both the
                proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’
                that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than
                his successor, William Brooke (1527–97), who served only a year before his death. The
-               previous masque may have been part of Gesta Grayorum.</note><!-- #CB 2018-02-02: As per recent discussion, do you want to change this to note type="endnote" rather than note type="editorial". I think you liked the distinctions REED Online was using for the notes. -->
+               previous masque may have been part of Gesta Grayorum.</note><!-- #CB 2018-02-02: Changed your note type="editorial" to div type="endnote". Hope I didn't steer you wrong here, but can't find our conversation. Thought I said we use <div type="endnote"> and <div type="translation"> when needed, to contrast with <div type="transcription">. We use <note> for <note type="foot"> (footnotes at bottom of print page) and <note type="marginal"> -->
 
 
          </div>
