@@ -109,6 +109,12 @@
                   Editor</resp>
                <resp>NHPRC-Mellon Project Team Member</resp>
             </respStmt>
+            
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, REED London</resp>
+            </respStmt>
 
             <respStmt>
                <persName>Kimberly Martin</persName>
@@ -237,21 +243,21 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
+         <change when="2018-02-02" who="#CB">corrected tag structure</change>
          <change when="2018-01-28" who="#JAKA1">expanded tagging</change>
          <change when="2017-10-28" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
 
-<!-- DKJ 2018-01-28: Please review updated record structure to make sure I'm structuring the elements and attributes correctly. Please go ahead and make corrections directly, then comment on what you've done so I can make sure I can apply corrections to other record files -->
    <text ana="taxon:letter" type="record" n="private_correspondence">
       <body xml:lang="eng">
-         <head><!-- #CB 2018-02-02: Folio info goes below, not here, so I deleted here (see changes below). This <head> also contains place information. In staffs, we include county plus borough/parish name, or county plus household name. For I of C you could use "<head>Inns of Court..." -->
-            <date from-iso="1595" to-iso="1596" cert="medium">1595-6</date><!-- #CB 2018-02-02: Can we talk about diff between using cert and precision for circas, maybe on google doc. I've seen diff discussions online, curious what you and JC think. As said before, REED Online currently uses precision, not cert, for circa. Willing to change if makes more sense. Also, you may want to include something in text for end-user...I had mentioned we add 'c' in front of date within tags, so, for example from staffs,  <date precision="low" when-iso="1550"><hi rend="italic">c</hi> 1550</date> --> 
+         <head>Inns of Court
+            <date from-iso="1595" to-iso="1596" precision="medium">1595-6</date>
             <seg ana="docu:RLP003" corresp="docu:RLPCI1 pp. 126-7">RLP003</seg></head>
          <div type="transcription">
             <head>single sheet<supplied>Letter of Francis Bacon to William Cecil, Lord
                Burghley</supplied></head><!-- #CB 2018-02-02: I added 'single sheet'. We duplicate this info here (when it already properly appears in pb line below) mostly for front end display plus legacy conversion issues. Also, would like confirmation you saw my last query about the records heading appearing here, in <supplied>, rather than being pointed to on the taxonomy file. I'm guessing it's easier architecture for people who have to read templates to leave it here for now? -->
-            <pb n="1" type="sheet"/><!-- #CB 2018-02-02: I added this line. We need the pb line here for parallelism in records that have page/folio breaks in the middle of the record as well. More pbs can be added in the middle of record when needed and they have same structure as bits at top -->
+            <pb n="1" type="sheet"/>
 
             <ab>Yt may please <persName n="William Cecil">your good L<ex>ordship</ex></persName> I
                am sory the joynt maske from the <orgName n="Inns of Court (combined)">fowr Innes of
@@ -276,12 +282,14 @@
                   <hi rend="right"><persName n="Francis Bacon">Fr<ex>ancis</ex>
                      Bacon</persName></hi></seg></ab>
 
-            <div type="endnote">Francis Bacon and William Cecil were members of Gray’s Inn. This letter was
+            <div type="endnote">
+               <ab>Francis Bacon and William Cecil were members of Gray’s Inn. This letter was
                clearly composed before 4 August 1598, the date of Burghley’s death. Since both the
                proposed masque and a previous masque are associated with ‘my lord Chamberlayne,’
                that official was probably Henry Carey, first Baron Hunsdon (1526–96), rather than
                his successor, William Brooke (1527–97), who served only a year before his death. The
-               previous masque may have been part of Gesta Grayorum.</note><!-- #CB 2018-02-02: Changed your note type="editorial" to div type="endnote". Hope I didn't steer you wrong here, but can't find our conversation. Thought I said we use <div type="endnote"> and <div type="translation"> when needed, to contrast with <div type="transcription">. We use <note> for <note type="foot"> (footnotes at bottom of print page) and <note type="marginal"> -->
+               previous masque may have been part of Gesta Grayorum.
+            </ab></div>
 
 
          </div>
