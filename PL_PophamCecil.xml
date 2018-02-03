@@ -210,7 +210,7 @@
       </profileDesc>
       <revisionDesc>
          <!-- Add new major milestone changes to top -->
-         <change when="2017-10-28" who="#JAKA1">adapted schema from #JC work on Staffordshire</change>
+         <change when="2017-12-01" who="#JAKA1">created document</change>
       </revisionDesc>
    </teiHeader>
    
@@ -218,15 +218,15 @@
       <body xml:lang="eng">
          <head>
             <date notBefore="1601" notAfter="1602">8 February</date>
-            <seg ana="docu:RLPC006">RLPC006</seg></head>
+            <seg ana="docu:RLP006">RLP006</seg></head>
          <div type="transcription">
             <div>
                <head><supplied>Letter of Sir John Popham, Lord Chief Justice, to Sir Robert Cecil</supplied></head>
                <pb n="f [1]*"/>
                
                <ab>
-                  S<hi rend="italic">i</hi>r I haue so dealt w<hi rend="italic">i</hi>t<hi rend="italic">h</hi> some of the Benchers off the mydle Temple as I haue brought that the house wylbe wylling to Beare CC m<hi rend="italic">a</hi>rk<hi rend="italic">es</hi> towardes the Charg off what ys wysshed to be donne to her ma<hi rend="italic">ies</hi>t<hi rend="italic">ies</hi> good lykyng/ and if the yong gentylmen wylbe drawen in to p<hi rend="italic">er</hi>forme what ys off their p<hi rend="italic">a</hi>rt<hi rend="italic">es</hi> I hope yt wylbe effected/ some off the yong men haue their humors But I hope that wylbe overruled for I send for them, assone as other Busyness of her ma<hi rend="italic">ies</hi>t<hi rend="italic">ie</hi> ys dyspatched.<lb/>
-                  But the au<hi rend="italic">n</hi>cyent<hi rend="italic">es</hi> of the house who wysshe all to be donne to her ma<hi rend="italic">ies</hi>t<hi rend="italic">ies</hi> Best Content do depend vpon your good favor yf any thyng throughe yong mens error shold [haue] not haue that Carryege in the Corse off yt as they wold wysshe yt myght not ^⎡yet⎤ be Imputed vnto them <gap reason="omitted"/></ab>
+                  Sir I haue so dealt with some of the Benchers off the mydle Temple as I haue brought that the house wylbe wylling to Beare CC markes towardes the Charg off what ys wysshed to be donne to her maiesties good lykyng/ and if the yong gentylmen wylbe drawen in to performe what ys off their partes I hope yt wylbe effected/ some off the yong men haue their humors But I hope that wylbe overruled for I send for them, assone as other Busyness of her maiestie ys dyspatched.<lb/>
+                  But the auncyentes of the house who wysshe all to be donne to her maiesties Best Content do depend vpon your good favor yf any thyng throughe yong mens error shold [haue] not haue that Carryege in the Corse off yt as they wold wysshe yt myght not ^⎡yet⎤ be Imputed vnto them <gap reason="omitted"/></ab>
                
                   <note>At the time this letter was written Sir John Popham (c 1531–1607) was chief justice of the king’s bench. As a prominent member of the Middle Temple, he was in a position to offer the Inn’s funds, and the services of its young gentlemen, to entertain the queen. The recipient of Popham’s letter was Sir Robert Cecil (1563–1612), then secretary of state.</note>
 
